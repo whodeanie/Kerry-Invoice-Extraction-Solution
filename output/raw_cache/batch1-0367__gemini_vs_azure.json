@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0367.jpg",
+  "reader_a": {
+    "seller_name": "Day and Sons",
+    "seller_tax_id": "908-94-9799",
+    "client_name": "Phillips, Burton and Mcdaniel",
+    "client_tax_id": "932-85-2181",
+    "invoice_number": "23995139",
+    "invoice_date": "05/30/2015",
+    "net_worth": "84 944,82",
+    "vat": "8 494,48",
+    "gross_worth": "93 439,30",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2378
+  },
+  "reader_b": {
+    "seller_name": "Day and Sons",
+    "seller_tax_id": "908-94-9799",
+    "client_name": "Phillips, Burton and Mcdaniel",
+    "client_tax_id": "932-85-2181",
+    "invoice_number": "23995139",
+    "invoice_date": "05/30/2015",
+    "net_worth": "$ 84 944,82",
+    "vat": "$ 8 494,48",
+    "gross_worth": "$ 93 439,30",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.93,
+      "seller_tax_id": 0.444,
+      "client_name": 0.917,
+      "client_tax_id": 0.443,
+      "invoice_number": 0.956,
+      "invoice_date": 0.95,
+      "net_worth": 0.898,
+      "vat": 0.916,
+      "gross_worth": 0.918
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

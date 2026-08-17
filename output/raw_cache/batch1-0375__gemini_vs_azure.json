@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0375.jpg",
+  "reader_a": {
+    "seller_name": "Moore, Thomas and Crosby",
+    "seller_tax_id": "943-88-9123",
+    "client_name": "Aguirre Ltd",
+    "client_tax_id": "924-73-4934",
+    "invoice_number": "23897213",
+    "invoice_date": "07/14/2019",
+    "net_worth": "252,63",
+    "vat": "25,26",
+    "gross_worth": "277,89",
+    "_model": "gemini-3.1-flash-lite",
+    "_tokens": 1611
+  },
+  "reader_b": {
+    "seller_name": "Moore, Thomas and Crosby",
+    "seller_tax_id": "943-88-9123",
+    "client_name": "Aguirre Ltd",
+    "client_tax_id": "924-73-4934",
+    "invoice_number": "23897213",
+    "invoice_date": "07/14/2019",
+    "net_worth": "$ 252,63",
+    "vat": "$ 25,26",
+    "gross_worth": "$ 277,89",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.918,
+      "seller_tax_id": 0.551,
+      "client_name": 0.937,
+      "client_tax_id": 0.649,
+      "invoice_number": 0.96,
+      "invoice_date": 0.95,
+      "net_worth": 0.93,
+      "vat": 0.929,
+      "gross_worth": 0.937
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

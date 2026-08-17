@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0369.jpg",
+  "reader_a": {
+    "seller_name": "Miller Inc",
+    "seller_tax_id": "909-72-0896",
+    "client_name": "Mason, Melton and Matthews",
+    "client_tax_id": "911-83-0636",
+    "invoice_number": "64809205",
+    "invoice_date": "08/18/2014",
+    "net_worth": "651,15",
+    "vat": "65,12",
+    "gross_worth": "716,27",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2478
+  },
+  "reader_b": {
+    "seller_name": "Miller Inc",
+    "seller_tax_id": null,
+    "client_name": "Mason, Melton and Matthews",
+    "client_tax_id": "911-83-0636",
+    "invoice_number": "64809205",
+    "invoice_date": "08/18/2014",
+    "net_worth": "$ 651,15",
+    "vat": "$ 65,12",
+    "gross_worth": "$ 716,27",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.938,
+      "client_name": 0.916,
+      "client_tax_id": 0.334,
+      "invoice_number": 0.962,
+      "invoice_date": 0.955,
+      "net_worth": 0.723,
+      "vat": 0.817,
+      "gross_worth": 0.925
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

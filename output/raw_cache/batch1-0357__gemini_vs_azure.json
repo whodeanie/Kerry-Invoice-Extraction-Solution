@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0357.jpg",
+  "reader_a": {
+    "seller_name": "Houston-Brooks",
+    "seller_tax_id": "925-75-9384",
+    "client_name": "Moore, Hill and Ford",
+    "client_tax_id": "968-92-5785",
+    "invoice_number": "19507687",
+    "invoice_date": "09/19/2018",
+    "net_worth": "55 626,97",
+    "vat": "5 562,70",
+    "gross_worth": "61 189,67",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2359
+  },
+  "reader_b": {
+    "seller_name": "Houston-Brooks",
+    "seller_tax_id": null,
+    "client_name": "Moore, Hill and Ford",
+    "client_tax_id": "968-92-5785",
+    "invoice_number": "19507687",
+    "invoice_date": "09/19/2018",
+    "net_worth": "$ 55 626,97",
+    "vat": "$ 5 562,70",
+    "gross_worth": "$ 61 189,67",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.969,
+      "client_name": 0.919,
+      "client_tax_id": 0.394,
+      "invoice_number": 0.97,
+      "invoice_date": 0.968,
+      "net_worth": 0.888,
+      "vat": 0.888,
+      "gross_worth": 0.918
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

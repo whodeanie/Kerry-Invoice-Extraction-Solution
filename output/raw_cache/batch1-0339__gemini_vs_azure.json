@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0339.jpg",
+  "reader_a": {
+    "seller_name": "Rodriguez-Barnett",
+    "seller_tax_id": "986-88-3758",
+    "client_name": "Le, Lawson and Rios",
+    "client_tax_id": "967-80-5679",
+    "invoice_number": "48531206",
+    "invoice_date": "08/03/2019",
+    "net_worth": "5 587,91",
+    "vat": "558,79",
+    "gross_worth": "6 146,70",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1976
+  },
+  "reader_b": {
+    "seller_name": "Rodriguez-Barnett",
+    "seller_tax_id": "986-88-3758",
+    "client_name": "Le, Lawson and Rios\nUSS King",
+    "client_tax_id": "967-80-5679",
+    "invoice_number": "48531206",
+    "invoice_date": "08/03/2019",
+    "net_worth": "$ 5 587,91",
+    "vat": "$ 558,79",
+    "gross_worth": "$ 6 146,70",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.76,
+      "seller_tax_id": 0.529,
+      "client_name": 0.786,
+      "client_tax_id": 0.594,
+      "invoice_number": 0.95,
+      "invoice_date": 0.942,
+      "net_worth": 0.786,
+      "vat": 0.915,
+      "gross_worth": 0.916
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

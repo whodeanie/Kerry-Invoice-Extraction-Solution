@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0378.jpg",
+  "reader_a": {
+    "seller_name": "Duran Group",
+    "seller_tax_id": "917-88-4853",
+    "client_name": "Mayer-Bates",
+    "client_tax_id": "954-81-3871",
+    "invoice_number": "74263194",
+    "invoice_date": "03/28/2020",
+    "net_worth": "119,93",
+    "vat": "11,99",
+    "gross_worth": "131,92",
+    "_model": "gemini-3.1-flash-lite",
+    "_tokens": 1611
+  },
+  "reader_b": {
+    "seller_name": "Duran Group",
+    "seller_tax_id": null,
+    "client_name": "Mayer-Bates",
+    "client_tax_id": "954-81-3871",
+    "invoice_number": "74263194",
+    "invoice_date": "03/28/2020",
+    "net_worth": "$ 119,93",
+    "vat": "$ 11,99",
+    "gross_worth": "$ 131,92",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.946,
+      "client_name": 0.968,
+      "client_tax_id": 0.498,
+      "invoice_number": 0.972,
+      "invoice_date": 0.971,
+      "net_worth": 0.915,
+      "vat": 0.819,
+      "gross_worth": 0.936
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0359.jpg",
+  "reader_a": {
+    "seller_name": "Cook, Bartlett and Giles",
+    "seller_tax_id": "974-75-0534",
+    "client_name": "Smith, Herrera and Graves",
+    "client_tax_id": "943-83-6136",
+    "invoice_number": "29534383",
+    "invoice_date": "05/30/2017",
+    "net_worth": "329,34",
+    "vat": "32,93",
+    "gross_worth": "362,27",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2198
+  },
+  "reader_b": {
+    "seller_name": "Cook, Bartlett and Giles",
+    "seller_tax_id": "974-75-0354",
+    "client_name": "Smith, Herrera and Graves",
+    "client_tax_id": "943-83-6136",
+    "invoice_number": "29534383",
+    "invoice_date": "05/30/2017",
+    "net_worth": "$ 329,34",
+    "vat": "$ 32,93",
+    "gross_worth": "$ 362,27",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.927,
+      "seller_tax_id": 0.428,
+      "client_name": 0.925,
+      "client_tax_id": 0.462,
+      "invoice_number": 0.972,
+      "invoice_date": 0.971,
+      "net_worth": 0.916,
+      "vat": 0.915,
+      "gross_worth": 0.937
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

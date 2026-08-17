@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0349.jpg",
+  "reader_a": {
+    "seller_name": "Hernandez, Barber and Jones",
+    "seller_tax_id": "934-99-4537",
+    "client_name": "Hall-Skinner",
+    "client_tax_id": "944-87-7634",
+    "invoice_number": "39571754",
+    "invoice_date": "07/03/2013",
+    "net_worth": "6 950,20",
+    "vat": "695,02",
+    "gross_worth": "7 645,22",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 2028
+  },
+  "reader_b": {
+    "seller_name": "Hernandez, Barber and Jones",
+    "seller_tax_id": "934-99-4537",
+    "client_name": "Hall-Skinner",
+    "client_tax_id": "944-87-7634",
+    "invoice_number": "39571754",
+    "invoice_date": "07/03/2013",
+    "net_worth": "$ 6 950,20",
+    "vat": "$ 695,02",
+    "gross_worth": "$ 7 645,22",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.915,
+      "seller_tax_id": 0.443,
+      "client_name": 0.916,
+      "client_tax_id": 0.441,
+      "invoice_number": 0.965,
+      "invoice_date": 0.956,
+      "net_worth": 0.894,
+      "vat": 0.926,
+      "gross_worth": 0.919
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

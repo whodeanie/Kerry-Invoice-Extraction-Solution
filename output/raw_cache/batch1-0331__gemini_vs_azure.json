@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0331.jpg",
+  "reader_a": {
+    "seller_name": "Ochoa-Scott",
+    "seller_tax_id": "921-82-1053",
+    "client_name": "Green LLC",
+    "client_tax_id": "965-99-1263",
+    "invoice_number": "94138597",
+    "invoice_date": "02/05/2018",
+    "net_worth": "1 612,50",
+    "vat": "161,25",
+    "gross_worth": "1 773,75",
+    "_model": "gemini-3.6-flash",
+    "_tokens": 2488
+  },
+  "reader_b": {
+    "seller_name": "Ochoa-Scott",
+    "seller_tax_id": null,
+    "client_name": "Green LLC",
+    "client_tax_id": "965-99-1263",
+    "invoice_number": "94138597",
+    "invoice_date": "02/05/2018",
+    "net_worth": "$ 1 612,50",
+    "vat": "$ 161,25",
+    "gross_worth": "$ 1 773,75",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.972,
+      "client_name": 0.942,
+      "client_tax_id": 0.416,
+      "invoice_number": 0.972,
+      "invoice_date": 0.971,
+      "net_worth": 0.746,
+      "vat": 0.802,
+      "gross_worth": 0.929
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

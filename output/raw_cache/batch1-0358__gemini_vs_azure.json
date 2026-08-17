@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0358.jpg",
+  "reader_a": {
+    "seller_name": "Gardner, Tucker and Martinez",
+    "seller_tax_id": "935-91-0274",
+    "client_name": "Robbins Group",
+    "client_tax_id": "968-87-5481",
+    "invoice_number": "61660848",
+    "invoice_date": "05/30/2019",
+    "net_worth": "24,12",
+    "vat": "2,41",
+    "gross_worth": "26,53",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2369
+  },
+  "reader_b": {
+    "seller_name": "Gardner, Tucker and Martinez",
+    "seller_tax_id": "935-91-0274",
+    "client_name": "Robbins Group",
+    "client_tax_id": "968-87-5481",
+    "invoice_number": "61660848",
+    "invoice_date": "05/30/2019",
+    "net_worth": "$ 24,12",
+    "vat": "$ 2,41",
+    "gross_worth": "$ 26,53",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.926,
+      "seller_tax_id": 0.536,
+      "client_name": 0.801,
+      "client_tax_id": 0.574,
+      "invoice_number": 0.973,
+      "invoice_date": 0.972,
+      "net_worth": 0.803,
+      "vat": 0.916,
+      "gross_worth": 0.927
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

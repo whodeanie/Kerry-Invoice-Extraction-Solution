@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0334.jpg",
+  "reader_a": {
+    "seller_name": "Duncan Ltd",
+    "seller_tax_id": "964-84-8594",
+    "client_name": "Edwards-Archer",
+    "client_tax_id": "909-91-4017",
+    "invoice_number": "65498230",
+    "invoice_date": "02/16/2021",
+    "net_worth": "45,50",
+    "vat": "4,55",
+    "gross_worth": "50,05",
+    "_model": "gemini-3.6-flash",
+    "_tokens": 2130
+  },
+  "reader_b": {
+    "seller_name": "Duncan Ltd",
+    "seller_tax_id": "964-84-8594",
+    "client_name": "Edwards-Archer",
+    "client_tax_id": "909-91-4017",
+    "invoice_number": "65498230",
+    "invoice_date": "02/16/2021",
+    "net_worth": "$ 45,50",
+    "vat": "$ 4,55",
+    "gross_worth": "$ 50,05",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.946,
+      "seller_tax_id": 0.507,
+      "client_name": 0.941,
+      "client_tax_id": 0.585,
+      "invoice_number": 0.975,
+      "invoice_date": 0.974,
+      "net_worth": 0.922,
+      "vat": 0.93,
+      "gross_worth": 0.938
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "batch1-0340.jpg",
+  "reader_a": {
+    "seller_name": "Daniel-Morrison",
+    "seller_tax_id": "995-99-6193",
+    "client_name": "Snyder, Benton and Reed",
+    "client_tax_id": "999-86-4010",
+    "invoice_number": "82977013",
+    "invoice_date": "12/06/2013",
+    "net_worth": "244,99",
+    "vat": "24,50",
+    "gross_worth": "269,49",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1726
+  },
+  "reader_b": {
+    "seller_name": "Daniel-Morrison",
+    "seller_tax_id": null,
+    "client_name": "Snyder, Benton and Reed",
+    "client_tax_id": null,
+    "invoice_number": "82977013",
+    "invoice_date": "12/06/2013",
+    "net_worth": "$ 244,99",
+    "vat": "$ 24,50",
+    "gross_worth": "$ 269,49",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.97,
+      "client_name": 0.926,
+      "invoice_number": 0.971,
+      "invoice_date": 0.97,
+      "net_worth": 0.723,
+      "vat": 0.76,
+      "gross_worth": 0.925
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

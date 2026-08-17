@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0352.jpg",
+  "reader_a": {
+    "seller_name": "Fernandez LLC",
+    "seller_tax_id": "984-86-2338",
+    "client_name": "Brown-Carr",
+    "client_tax_id": "906-94-4177",
+    "invoice_number": "50554106",
+    "invoice_date": "12/17/2012",
+    "net_worth": "17 148,75",
+    "vat": "1 714,88",
+    "gross_worth": "18 863,63",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2628
+  },
+  "reader_b": {
+    "seller_name": "Fernandez LLC",
+    "seller_tax_id": null,
+    "client_name": "Brown-Carr",
+    "client_tax_id": "906-94-4177",
+    "invoice_number": "50554106",
+    "invoice_date": "12/17/2012",
+    "net_worth": "$ 17 148,75",
+    "vat": "$ 1 714,88",
+    "gross_worth": "$ 18 863,63",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.937,
+      "client_name": 0.938,
+      "client_tax_id": 0.347,
+      "invoice_number": 0.957,
+      "invoice_date": 0.952,
+      "net_worth": 0.894,
+      "vat": 0.901,
+      "gross_worth": 0.92
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

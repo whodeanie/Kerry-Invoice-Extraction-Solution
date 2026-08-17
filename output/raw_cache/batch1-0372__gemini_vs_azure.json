@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0372.jpg",
+  "reader_a": {
+    "seller_name": "Hart-Wright",
+    "seller_tax_id": "953-74-2648",
+    "client_name": "Foster-Parks",
+    "client_tax_id": "943-86-1330",
+    "invoice_number": "15172184",
+    "invoice_date": "08/24/2017",
+    "net_worth": "4 819,90",
+    "vat": "481,99",
+    "gross_worth": "5 301,89",
+    "_model": "gemini-3.1-flash-lite",
+    "_tokens": 1614
+  },
+  "reader_b": {
+    "seller_name": "Hart-Wright",
+    "seller_tax_id": "953-74-2648",
+    "client_name": "Foster-Parks",
+    "client_tax_id": "943-86-1330",
+    "invoice_number": "15172184",
+    "invoice_date": "08/24/2017",
+    "net_worth": "$ 4 819,90",
+    "vat": "$ 481,99",
+    "gross_worth": "$ 5 301,89",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.957,
+      "seller_tax_id": 0.439,
+      "client_name": 0.947,
+      "client_tax_id": 0.536,
+      "invoice_number": 0.965,
+      "invoice_date": 0.96,
+      "net_worth": 0.915,
+      "vat": 0.93,
+      "gross_worth": 0.925
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

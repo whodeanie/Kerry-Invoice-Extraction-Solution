@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0365.jpg",
+  "reader_a": {
+    "seller_name": "Lee Inc",
+    "seller_tax_id": "952-96-9876",
+    "client_name": "Olsen Ltd",
+    "client_tax_id": "932-73-0621",
+    "invoice_number": "41887329",
+    "invoice_date": "11/26/2020",
+    "net_worth": "17 349,93",
+    "vat": "1 734,99",
+    "gross_worth": "19 084,92",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2374
+  },
+  "reader_b": {
+    "seller_name": "Lee Inc",
+    "seller_tax_id": "952-96-9876",
+    "client_name": "Olsen Ltd\nUSCGC Mann",
+    "client_tax_id": "932-73-0621",
+    "invoice_number": "41887329",
+    "invoice_date": "11/26/2020",
+    "net_worth": "$ 17 349,93",
+    "vat": "$ 1 734,99",
+    "gross_worth": "$ 19 084,92",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.938,
+      "seller_tax_id": 0.58,
+      "client_name": 0.666,
+      "client_tax_id": 0.668,
+      "invoice_number": 0.95,
+      "invoice_date": 0.948,
+      "net_worth": 0.893,
+      "vat": 0.916,
+      "gross_worth": 0.895
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

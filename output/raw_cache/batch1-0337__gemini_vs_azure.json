@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0337.jpg",
+  "reader_a": {
+    "seller_name": "Snyder, Bryan and Booth",
+    "seller_tax_id": "983-70-0913",
+    "client_name": "Ashley-Perry",
+    "client_tax_id": "981-88-6259",
+    "invoice_number": "94098997",
+    "invoice_date": "10/04/2020",
+    "net_worth": "13 846,77",
+    "vat": "1 384,68",
+    "gross_worth": "15 231,45",
+    "_model": "gemini-3.6-flash",
+    "_tokens": 2543
+  },
+  "reader_b": {
+    "seller_name": "Snyder, Bryan and Booth",
+    "seller_tax_id": null,
+    "client_name": "Ashley-Perry",
+    "client_tax_id": "981-88-6259",
+    "invoice_number": "94098997",
+    "invoice_date": "10/04/2020",
+    "net_worth": "$ 13 846,77",
+    "vat": "$ 1 384,68",
+    "gross_worth": "$ 15 231,45",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.925,
+      "client_name": 0.94,
+      "client_tax_id": 0.415,
+      "invoice_number": 0.964,
+      "invoice_date": 0.956,
+      "net_worth": 0.89,
+      "vat": 0.893,
+      "gross_worth": 0.917
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

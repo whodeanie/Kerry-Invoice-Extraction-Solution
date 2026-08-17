@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0356.jpg",
+  "reader_a": {
+    "seller_name": "Peterson LLC",
+    "seller_tax_id": "909-90-0060",
+    "client_name": "Williams, Yang and Jackson",
+    "client_tax_id": "926-74-8186",
+    "invoice_number": "23385207",
+    "invoice_date": "06/23/2012",
+    "net_worth": "240,00",
+    "vat": "24,00",
+    "gross_worth": "264,00",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2254
+  },
+  "reader_b": {
+    "seller_name": "Peterson LLC",
+    "seller_tax_id": "909-90-0060",
+    "client_name": "Williams, Yang and Jackson",
+    "client_tax_id": "926-74-8186",
+    "invoice_number": "23385207",
+    "invoice_date": "06/23/2012",
+    "net_worth": "$ 240,00",
+    "vat": "$ 24,00",
+    "gross_worth": "$ 264,00",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.947,
+      "seller_tax_id": 0.535,
+      "client_name": 0.927,
+      "client_tax_id": 0.529,
+      "invoice_number": 0.973,
+      "invoice_date": 0.972,
+      "net_worth": 0.778,
+      "vat": 0.8,
+      "gross_worth": 0.937
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

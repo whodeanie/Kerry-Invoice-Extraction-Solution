@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0360.jpg",
+  "reader_a": {
+    "seller_name": "Mclean Inc",
+    "seller_tax_id": "913-81-7541",
+    "client_name": "Richards and Sons",
+    "client_tax_id": "952-95-0332",
+    "invoice_number": "58126171",
+    "invoice_date": "08/14/2015",
+    "net_worth": "30 884,30",
+    "vat": "3 088,43",
+    "gross_worth": "33 972,73",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2419
+  },
+  "reader_b": {
+    "seller_name": "Mclean Inc",
+    "seller_tax_id": null,
+    "client_name": "Richards and Sons",
+    "client_tax_id": "952-95-0332",
+    "invoice_number": "58126171",
+    "invoice_date": "08/14/2015",
+    "net_worth": "$ 30 884,30",
+    "vat": "$ 3 088,43",
+    "gross_worth": "$ 33 972,73",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.938,
+      "client_name": 0.927,
+      "client_tax_id": 0.368,
+      "invoice_number": 0.966,
+      "invoice_date": 0.959,
+      "net_worth": 0.915,
+      "vat": 0.917,
+      "gross_worth": 0.922
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

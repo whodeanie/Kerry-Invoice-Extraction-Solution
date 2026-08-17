@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0350.jpg",
+  "reader_a": {
+    "seller_name": "Daniel-Benson",
+    "seller_tax_id": "991-85-2472",
+    "client_name": "Mcdonald, Jordan and Malone",
+    "client_tax_id": "925-92-0610",
+    "invoice_number": "39077025",
+    "invoice_date": "12/15/2011",
+    "net_worth": "3 546,94",
+    "vat": "354,69",
+    "gross_worth": "3 901,63",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1867
+  },
+  "reader_b": {
+    "seller_name": "Daniel-Benson",
+    "seller_tax_id": "991-85-2472",
+    "client_name": "Mcdonald, Jordan and Malone",
+    "client_tax_id": "925-92-0610",
+    "invoice_number": "39077025",
+    "invoice_date": "12/15/2011",
+    "net_worth": "$ 3 546,94",
+    "vat": "$ 354,69",
+    "gross_worth": "$ 3 901,63",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.957,
+      "seller_tax_id": 0.443,
+      "client_name": 0.917,
+      "client_tax_id": 0.412,
+      "invoice_number": 0.965,
+      "invoice_date": 0.958,
+      "net_worth": 0.904,
+      "vat": 0.919,
+      "gross_worth": 0.919
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

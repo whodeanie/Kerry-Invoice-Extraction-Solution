@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0353.jpg",
+  "reader_a": {
+    "seller_name": "Callahan and Sons",
+    "seller_tax_id": "979-84-7639",
+    "client_name": "King-Harris",
+    "client_tax_id": "988-88-5388",
+    "invoice_number": "10819011",
+    "invoice_date": "02/09/2018",
+    "net_worth": "510,64",
+    "vat": "51,06",
+    "gross_worth": "561,70",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2208
+  },
+  "reader_b": {
+    "seller_name": "Callahan and Sons",
+    "seller_tax_id": null,
+    "client_name": "King-Harris",
+    "client_tax_id": "988-88-5388",
+    "invoice_number": "10819011",
+    "invoice_date": "02/09/2018",
+    "net_worth": "$ 510,64",
+    "vat": "$ 51,06",
+    "gross_worth": "$ 561,70",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.93,
+      "client_name": 0.938,
+      "client_tax_id": 0.536,
+      "invoice_number": 0.967,
+      "invoice_date": 0.966,
+      "net_worth": 0.917,
+      "vat": 0.927,
+      "gross_worth": 0.933
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

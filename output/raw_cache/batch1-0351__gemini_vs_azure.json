@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0351.jpg",
+  "reader_a": {
+    "seller_name": "Poole-Boyle",
+    "seller_tax_id": "938-78-7124",
+    "client_name": "Ray, Hurst and Cruz",
+    "client_tax_id": "924-90-5219",
+    "invoice_number": "77015917",
+    "invoice_date": "12/21/2017",
+    "net_worth": "99,95",
+    "vat": "9,99",
+    "gross_worth": "109,94",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2054
+  },
+  "reader_b": {
+    "seller_name": "Poole-Boyle",
+    "seller_tax_id": "938-78-7124",
+    "client_name": "Ray, Hurst and Cruz",
+    "client_tax_id": "924-90-5219",
+    "invoice_number": "77015917",
+    "invoice_date": "12/21/2017",
+    "net_worth": "$ 99,95",
+    "vat": "$ 9,99",
+    "gross_worth": "$ 109,94",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.972,
+      "seller_tax_id": 0.416,
+      "client_name": 0.921,
+      "client_tax_id": 0.434,
+      "invoice_number": 0.973,
+      "invoice_date": 0.973,
+      "net_worth": 0.74,
+      "vat": 0.809,
+      "gross_worth": 0.928
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "batch1-0377.jpg",
+  "reader_a": {
+    "seller_name": "Wilkins Ltd",
+    "seller_tax_id": "928-96-4400",
+    "client_name": "Ross Inc",
+    "client_tax_id": "939-96-7563",
+    "invoice_number": "35259356",
+    "invoice_date": "01/20/2018",
+    "net_worth": "629,80",
+    "vat": "62,98",
+    "gross_worth": "692,78",
+    "_model": "gemini-3.1-flash-lite",
+    "_tokens": 1608
+  },
+  "reader_b": {
+    "seller_name": "Wilkins Ltd",
+    "seller_tax_id": null,
+    "client_name": "Ross Inc",
+    "client_tax_id": null,
+    "invoice_number": "35259356",
+    "invoice_date": "01/20/2018",
+    "net_worth": "$ 629,80",
+    "vat": "$ 62,98",
+    "gross_worth": "$ 692,78",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.939,
+      "client_name": 0.933,
+      "invoice_number": 0.967,
+      "invoice_date": 0.966,
+      "net_worth": 0.917,
+      "vat": 0.925,
+      "gross_worth": 0.93
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

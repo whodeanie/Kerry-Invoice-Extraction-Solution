@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0332.jpg",
+  "reader_a": {
+    "seller_name": "Chavez Ltd",
+    "seller_tax_id": "904-77-6503",
+    "client_name": "Roberts Ltd",
+    "client_tax_id": "956-94-0439",
+    "invoice_number": "13507183",
+    "invoice_date": "09/09/2015",
+    "net_worth": "1 026,72",
+    "vat": "102,67",
+    "gross_worth": "1 129,39",
+    "_model": "gemini-3.6-flash",
+    "_tokens": 1943
+  },
+  "reader_b": {
+    "seller_name": "Chavez Ltd",
+    "seller_tax_id": null,
+    "client_name": "Roberts Ltd",
+    "client_tax_id": "956-94-0439",
+    "invoice_number": "13507183",
+    "invoice_date": "09/09/2015",
+    "net_worth": "$ 1 026,72",
+    "vat": "$ 102,67",
+    "gross_worth": "$ 1 129,39",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.947,
+      "client_name": 0.943,
+      "client_tax_id": 0.505,
+      "invoice_number": 0.973,
+      "invoice_date": 0.972,
+      "net_worth": 0.915,
+      "vat": 0.927,
+      "gross_worth": 0.93
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

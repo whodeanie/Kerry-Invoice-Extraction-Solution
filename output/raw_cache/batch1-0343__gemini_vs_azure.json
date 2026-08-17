@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0343.jpg",
+  "reader_a": {
+    "seller_name": "Williams Group",
+    "seller_tax_id": "930-72-1637",
+    "client_name": "Frazier-Davis",
+    "client_tax_id": "952-75-5780",
+    "invoice_number": "69057610",
+    "invoice_date": "08/20/2013",
+    "net_worth": "15 936,26",
+    "vat": "1 593,63",
+    "gross_worth": "17 529,89",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1819
+  },
+  "reader_b": {
+    "seller_name": "Williams Group",
+    "seller_tax_id": "930-72-1637",
+    "client_name": "Frazier-Davis",
+    "client_tax_id": "952-75-5780",
+    "invoice_number": "69057610",
+    "invoice_date": "08/20/2013",
+    "net_worth": "$ 15 936,26",
+    "vat": "$ 1 593,63",
+    "gross_worth": "$ 17 529,89",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.943,
+      "seller_tax_id": 0.553,
+      "client_name": 0.957,
+      "client_tax_id": 0.564,
+      "invoice_number": 0.969,
+      "invoice_date": 0.968,
+      "net_worth": 0.891,
+      "vat": 0.92,
+      "gross_worth": 0.917
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "batch1-0355.jpg",
+  "reader_a": {
+    "seller_name": "Logan, Deleon and Ayers",
+    "seller_tax_id": "977-99-2004",
+    "client_name": "Moyer-Jones",
+    "client_tax_id": "907-98-7260",
+    "invoice_number": "92179921",
+    "invoice_date": "10/11/2012",
+    "net_worth": "241,92",
+    "vat": "24,19",
+    "gross_worth": "266,11",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2218
+  },
+  "reader_b": {
+    "seller_name": "Logan, Deleon and Ayers",
+    "seller_tax_id": null,
+    "client_name": "Moyer-Jones",
+    "client_tax_id": null,
+    "invoice_number": "92179921",
+    "invoice_date": "10/11/2012",
+    "net_worth": "$ 241,92",
+    "vat": "$ 24,19",
+    "gross_worth": "$ 266,11",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.924,
+      "client_name": 0.92,
+      "invoice_number": 0.97,
+      "invoice_date": 0.968,
+      "net_worth": 0.915,
+      "vat": 0.817,
+      "gross_worth": 0.93
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

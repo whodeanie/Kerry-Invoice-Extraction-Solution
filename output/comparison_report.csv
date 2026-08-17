@@ -1,0 +1,454 @@
+image_file,field,Gemini_value,Azure DI_value,Gemini_normalised,Azure DI_normalised,status,similarity,Azure DI_field_confidence,chosen_value,reason
+batch1-0331.jpg,seller_name,Ochoa-Scott,Ochoa-Scott,ochoa scott,ochoa scott,match,1.0,0.972,Ochoa-Scott,both readers agree
+batch1-0331.jpg,seller_tax_id,921-82-1053,,921821053,,one_missing,0.0,,921-82-1053,only Gemini found a value (uncorroborated)
+batch1-0331.jpg,client_name,Green LLC,Green LLC,green,green,match,1.0,0.942,Green LLC,both readers agree
+batch1-0331.jpg,client_tax_id,965-99-1263,965-99-1263,965991263,965991263,match,1.0,0.416,965-99-1263,both readers agree
+batch1-0331.jpg,invoice_number,94138597,94138597,94138597,94138597,match,1.0,0.972,94138597,both readers agree
+batch1-0331.jpg,invoice_date,02/05/2018,02/05/2018,2018-02-05,2018-02-05,match,1.0,0.971,02/05/2018,both readers agree
+batch1-0331.jpg,net_worth,"1 612,50","$ 1 612,50",1612.50,1612.50,match,1.0,0.746,"1 612,50",both readers agree
+batch1-0331.jpg,vat,"161,25","$ 161,25",161.25,161.25,match,1.0,0.802,"161,25",both readers agree
+batch1-0331.jpg,gross_worth,"1 773,75","$ 1 773,75",1773.75,1773.75,match,1.0,0.929,"1 773,75",both readers agree
+batch1-0332.jpg,seller_name,Chavez Ltd,Chavez Ltd,chavez,chavez,match,1.0,0.947,Chavez Ltd,both readers agree
+batch1-0332.jpg,seller_tax_id,904-77-6503,,904776503,,one_missing,0.0,,904-77-6503,only Gemini found a value (uncorroborated)
+batch1-0332.jpg,client_name,Roberts Ltd,Roberts Ltd,roberts,roberts,match,1.0,0.943,Roberts Ltd,both readers agree
+batch1-0332.jpg,client_tax_id,956-94-0439,956-94-0439,956940439,956940439,match,1.0,0.505,956-94-0439,both readers agree
+batch1-0332.jpg,invoice_number,13507183,13507183,13507183,13507183,match,1.0,0.973,13507183,both readers agree
+batch1-0332.jpg,invoice_date,09/09/2015,09/09/2015,2015-09-09,2015-09-09,match,1.0,0.972,09/09/2015,both readers agree
+batch1-0332.jpg,net_worth,"1 026,72","$ 1 026,72",1026.72,1026.72,match,1.0,0.915,"1 026,72",both readers agree
+batch1-0332.jpg,vat,"102,67","$ 102,67",102.67,102.67,match,1.0,0.927,"102,67",both readers agree
+batch1-0332.jpg,gross_worth,"1 129,39","$ 1 129,39",1129.39,1129.39,match,1.0,0.93,"1 129,39",both readers agree
+batch1-0333.jpg,seller_name,"Solomon, Ford and Ellis","Solomon, Ford and Ellis",solomon ford and ellis,solomon ford and ellis,match,1.0,0.926,"Solomon, Ford and Ellis",both readers agree
+batch1-0333.jpg,seller_tax_id,954-73-2478,,954732478,,one_missing,0.0,,954-73-2478,only Gemini found a value (uncorroborated)
+batch1-0333.jpg,client_name,Hamilton-Jackson,Hamilton-Jackson,hamilton jackson,hamilton jackson,match,1.0,0.97,Hamilton-Jackson,both readers agree
+batch1-0333.jpg,client_tax_id,988-96-5706,988-96-5706,988965706,988965706,match,1.0,0.463,988-96-5706,both readers agree
+batch1-0333.jpg,invoice_number,74819543,74819543,74819543,74819543,match,1.0,0.975,74819543,both readers agree
+batch1-0333.jpg,invoice_date,10/07/2020,10/07/2020,2020-10-07,2020-10-07,match,1.0,0.973,10/07/2020,both readers agree
+batch1-0333.jpg,net_worth,"125,00","$ 125,00",125.00,125.00,match,1.0,0.819,"125,00",both readers agree
+batch1-0333.jpg,vat,"12,50","$ 12,50",12.50,12.50,match,1.0,0.917,"12,50",both readers agree
+batch1-0333.jpg,gross_worth,"137,50","$ 137,50",137.50,137.50,match,1.0,0.938,"137,50",both readers agree
+batch1-0334.jpg,seller_name,Duncan Ltd,Duncan Ltd,duncan,duncan,match,1.0,0.946,Duncan Ltd,both readers agree
+batch1-0334.jpg,seller_tax_id,964-84-8594,964-84-8594,964848594,964848594,match,1.0,0.507,964-84-8594,both readers agree
+batch1-0334.jpg,client_name,Edwards-Archer,Edwards-Archer,edwards archer,edwards archer,match,1.0,0.941,Edwards-Archer,both readers agree
+batch1-0334.jpg,client_tax_id,909-91-4017,909-91-4017,909914017,909914017,match,1.0,0.585,909-91-4017,both readers agree
+batch1-0334.jpg,invoice_number,65498230,65498230,65498230,65498230,match,1.0,0.975,65498230,both readers agree
+batch1-0334.jpg,invoice_date,02/16/2021,02/16/2021,2021-02-16,2021-02-16,match,1.0,0.974,02/16/2021,both readers agree
+batch1-0334.jpg,net_worth,"45,50","$ 45,50",45.50,45.50,match,1.0,0.922,"45,50",both readers agree
+batch1-0334.jpg,vat,"4,55","$ 4,55",4.55,4.55,match,1.0,0.93,"4,55",both readers agree
+batch1-0334.jpg,gross_worth,"50,05","$ 50,05",50.05,50.05,match,1.0,0.938,"50,05",both readers agree
+batch1-0335.jpg,seller_name,Johnson-Brooks,Johnson-Brooks,johnson brooks,johnson brooks,match,1.0,0.947,Johnson-Brooks,both readers agree
+batch1-0335.jpg,seller_tax_id,964-92-2746,,964922746,,one_missing,0.0,,964-92-2746,only Gemini found a value (uncorroborated)
+batch1-0335.jpg,client_name,"Proctor, Morgan and Williams","Proctor, Morgan and Williams",proctor morgan and williams,proctor morgan and williams,match,1.0,0.911,"Proctor, Morgan and Williams",both readers agree
+batch1-0335.jpg,client_tax_id,939-82-6262,939-82-6262,939826262,939826262,match,1.0,0.415,939-82-6262,both readers agree
+batch1-0335.jpg,invoice_number,51467723,51467723,51467723,51467723,match,1.0,0.95,51467723,both readers agree
+batch1-0335.jpg,invoice_date,04/21/2019,04/21/2019,2019-04-21,2019-04-21,match,1.0,0.943,04/21/2019,both readers agree
+batch1-0335.jpg,net_worth,"96 817,20","$ 96 817,20",96817.20,96817.20,match,1.0,0.888,"96 817,20",both readers agree
+batch1-0335.jpg,vat,"9 681,72","$ 9 681,72",9681.72,9681.72,match,1.0,0.909,"9 681,72",both readers agree
+batch1-0335.jpg,gross_worth,"106 498,92","$ 106 498,92",106498.92,106498.92,match,1.0,0.899,"106 498,92",both readers agree
+batch1-0336.jpg,seller_name,Decker PLC,Decker PLC,decker,decker,match,1.0,0.939,Decker PLC,both readers agree
+batch1-0336.jpg,seller_tax_id,957-87-4031,957-87-4031,957874031,957874031,match,1.0,0.818,957-87-4031,both readers agree
+batch1-0336.jpg,client_name,Boyle Ltd,Boyle Ltd,boyle,boyle,match,1.0,0.938,Boyle Ltd,both readers agree
+batch1-0336.jpg,client_tax_id,993-86-3706,993-86-3706,993863706,993863706,match,1.0,0.818,993-86-3706,both readers agree
+batch1-0336.jpg,invoice_number,97511742,97511742,97511742,97511742,match,1.0,0.966,97511742,both readers agree
+batch1-0336.jpg,invoice_date,04/07/2016,04/07/2016,2016-04-07,2016-04-07,match,1.0,0.962,04/07/2016,both readers agree
+batch1-0336.jpg,net_worth,"4 314,93","$ 4 314,93",4314.93,4314.93,match,1.0,0.925,"4 314,93",both readers agree
+batch1-0336.jpg,vat,"431,49","$ 431,49",431.49,431.49,match,1.0,0.936,"431,49",both readers agree
+batch1-0336.jpg,gross_worth,"4 746,42","$ 4 746,42",4746.42,4746.42,match,1.0,0.926,"4 746,42",both readers agree
+batch1-0337.jpg,seller_name,"Snyder, Bryan and Booth","Snyder, Bryan and Booth",snyder bryan and booth,snyder bryan and booth,match,1.0,0.925,"Snyder, Bryan and Booth",both readers agree
+batch1-0337.jpg,seller_tax_id,983-70-0913,,983700913,,one_missing,0.0,,983-70-0913,only Gemini found a value (uncorroborated)
+batch1-0337.jpg,client_name,Ashley-Perry,Ashley-Perry,ashley perry,ashley perry,match,1.0,0.94,Ashley-Perry,both readers agree
+batch1-0337.jpg,client_tax_id,981-88-6259,981-88-6259,981886259,981886259,match,1.0,0.415,981-88-6259,both readers agree
+batch1-0337.jpg,invoice_number,94098997,94098997,94098997,94098997,match,1.0,0.964,94098997,both readers agree
+batch1-0337.jpg,invoice_date,10/04/2020,10/04/2020,2020-10-04,2020-10-04,match,1.0,0.956,10/04/2020,both readers agree
+batch1-0337.jpg,net_worth,"13 846,77","$ 13 846,77",13846.77,13846.77,match,1.0,0.89,"13 846,77",both readers agree
+batch1-0337.jpg,vat,"1 384,68","$ 1 384,68",1384.68,1384.68,match,1.0,0.893,"1 384,68",both readers agree
+batch1-0337.jpg,gross_worth,"15 231,45","$ 15 231,45",15231.45,15231.45,match,1.0,0.917,"15 231,45",both readers agree
+batch1-0338.jpg,seller_name,Bailey PLC,Bailey PLC,bailey,bailey,match,1.0,0.94,Bailey PLC,both readers agree
+batch1-0338.jpg,seller_tax_id,918-95-6591,,918956591,,one_missing,0.0,,918-95-6591,only Gemini found a value (uncorroborated)
+batch1-0338.jpg,client_name,Turner Inc,Turner Inc,turner,turner,match,1.0,0.937,Turner Inc,both readers agree
+batch1-0338.jpg,client_tax_id,998-92-7755,998-92-7755,998927755,998927755,match,1.0,0.35,998-92-7755,both readers agree
+batch1-0338.jpg,invoice_number,11926242,11926242,11926242,11926242,match,1.0,0.969,11926242,both readers agree
+batch1-0338.jpg,invoice_date,03/01/2012,03/01/2012,2012-03-01,2012-03-01,match,1.0,0.967,03/01/2012,both readers agree
+batch1-0338.jpg,net_worth,"3 340,47","$ 3 340,47",3340.47,3340.47,match,1.0,0.89,"3 340,47",both readers agree
+batch1-0338.jpg,vat,"334,05","$ 334,05",334.05,334.05,match,1.0,0.924,"334,05",both readers agree
+batch1-0338.jpg,gross_worth,"3 674,52","$ 3 674,52",3674.52,3674.52,match,1.0,0.926,"3 674,52",both readers agree
+batch1-0339.jpg,seller_name,Rodriguez-Barnett,Rodriguez-Barnett,rodriguez barnett,rodriguez barnett,match,1.0,0.76,Rodriguez-Barnett,both readers agree
+batch1-0339.jpg,seller_tax_id,986-88-3758,986-88-3758,986883758,986883758,match,1.0,0.529,986-88-3758,both readers agree
+batch1-0339.jpg,client_name,"Le, Lawson and Rios","Le, Lawson and Rios
+USS King",le lawson and rios,le lawson and rios uss king,mismatch,0.8,0.786,"Le, Lawson and Rios","readers disagree, no arithmetic tie-break - flagged for human review"
+batch1-0339.jpg,client_tax_id,967-80-5679,967-80-5679,967805679,967805679,match,1.0,0.594,967-80-5679,both readers agree
+batch1-0339.jpg,invoice_number,48531206,48531206,48531206,48531206,match,1.0,0.95,48531206,both readers agree
+batch1-0339.jpg,invoice_date,08/03/2019,08/03/2019,2019-08-03,2019-08-03,match,1.0,0.942,08/03/2019,both readers agree
+batch1-0339.jpg,net_worth,"5 587,91","$ 5 587,91",5587.91,5587.91,match,1.0,0.786,"5 587,91",both readers agree
+batch1-0339.jpg,vat,"558,79","$ 558,79",558.79,558.79,match,1.0,0.915,"558,79",both readers agree
+batch1-0339.jpg,gross_worth,"6 146,70","$ 6 146,70",6146.70,6146.70,match,1.0,0.916,"6 146,70",both readers agree
+batch1-0340.jpg,seller_name,Daniel-Morrison,Daniel-Morrison,daniel morrison,daniel morrison,match,1.0,0.97,Daniel-Morrison,both readers agree
+batch1-0340.jpg,seller_tax_id,995-99-6193,,995996193,,one_missing,0.0,,995-99-6193,only Gemini found a value (uncorroborated)
+batch1-0340.jpg,client_name,"Snyder, Benton and Reed","Snyder, Benton and Reed",snyder benton and reed,snyder benton and reed,match,1.0,0.926,"Snyder, Benton and Reed",both readers agree
+batch1-0340.jpg,client_tax_id,999-86-4010,,999864010,,one_missing,0.0,,999-86-4010,only Gemini found a value (uncorroborated)
+batch1-0340.jpg,invoice_number,82977013,82977013,82977013,82977013,match,1.0,0.971,82977013,both readers agree
+batch1-0340.jpg,invoice_date,12/06/2013,12/06/2013,2013-12-06,2013-12-06,match,1.0,0.97,12/06/2013,both readers agree
+batch1-0340.jpg,net_worth,"244,99","$ 244,99",244.99,244.99,match,1.0,0.723,"244,99",both readers agree
+batch1-0340.jpg,vat,"24,50","$ 24,50",24.50,24.50,match,1.0,0.76,"24,50",both readers agree
+batch1-0340.jpg,gross_worth,"269,49","$ 269,49",269.49,269.49,match,1.0,0.925,"269,49",both readers agree
+batch1-0341.jpg,seller_name,Collins Group,Collins Group,collins group,collins group,match,1.0,0.938,Collins Group,both readers agree
+batch1-0341.jpg,seller_tax_id,942-76-9532,942-76-9532,942769532,942769532,match,1.0,0.534,942-76-9532,both readers agree
+batch1-0341.jpg,client_name,Pope LLC,Pope LLC,pope,pope,match,1.0,0.936,Pope LLC,both readers agree
+batch1-0341.jpg,client_tax_id,918-70-1520,918-70-1520,918701520,918701520,match,1.0,0.415,918-70-1520,both readers agree
+batch1-0341.jpg,invoice_number,86225018,86225018,86225018,86225018,match,1.0,0.956,86225018,both readers agree
+batch1-0341.jpg,invoice_date,12/18/2015,12/18/2015,2015-12-18,2015-12-18,match,1.0,0.944,12/18/2015,both readers agree
+batch1-0341.jpg,net_worth,"5 409,72","$ 5 409,72",5409.72,5409.72,match,1.0,0.889,"5 409,72",both readers agree
+batch1-0341.jpg,vat,"540,97","$ 540,97",540.97,540.97,match,1.0,0.905,"540,97",both readers agree
+batch1-0341.jpg,gross_worth,"5 950,69","$ 5 950,69",5950.69,5950.69,match,1.0,0.915,"5 950,69",both readers agree
+batch1-0342.jpg,seller_name,Love Inc,Love Inc,love,love,match,1.0,0.943,Love Inc,both readers agree
+batch1-0342.jpg,seller_tax_id,960-75-3286,960-75-3286,960753286,960753286,match,1.0,0.441,960-75-3286,both readers agree
+batch1-0342.jpg,client_name,Brown and Sons,Brown and Sons,brown and sons,brown and sons,match,1.0,0.932,Brown and Sons,both readers agree
+batch1-0342.jpg,client_tax_id,992-88-6386,992-88-6386,992886386,992886386,match,1.0,0.535,992-88-6386,both readers agree
+batch1-0342.jpg,invoice_number,79064100,79064100,79064100,79064100,match,1.0,0.972,79064100,both readers agree
+batch1-0342.jpg,invoice_date,05/25/2018,05/25/2018,2018-05-25,2018-05-25,match,1.0,0.971,05/25/2018,both readers agree
+batch1-0342.jpg,net_worth,"84,44","$ 84,44",84.44,84.44,match,1.0,0.932,"84,44",both readers agree
+batch1-0342.jpg,vat,"8,44","$ 8,44",8.44,8.44,match,1.0,0.928,"8,44",both readers agree
+batch1-0342.jpg,gross_worth,"92,88","$ 92,88",92.88,92.88,match,1.0,0.938,"92,88",both readers agree
+batch1-0343.jpg,seller_name,Williams Group,Williams Group,williams group,williams group,match,1.0,0.943,Williams Group,both readers agree
+batch1-0343.jpg,seller_tax_id,930-72-1637,930-72-1637,930721637,930721637,match,1.0,0.553,930-72-1637,both readers agree
+batch1-0343.jpg,client_name,Frazier-Davis,Frazier-Davis,frazier davis,frazier davis,match,1.0,0.957,Frazier-Davis,both readers agree
+batch1-0343.jpg,client_tax_id,952-75-5780,952-75-5780,952755780,952755780,match,1.0,0.564,952-75-5780,both readers agree
+batch1-0343.jpg,invoice_number,69057610,69057610,69057610,69057610,match,1.0,0.969,69057610,both readers agree
+batch1-0343.jpg,invoice_date,08/20/2013,08/20/2013,2013-08-20,2013-08-20,match,1.0,0.968,08/20/2013,both readers agree
+batch1-0343.jpg,net_worth,"15 936,26","$ 15 936,26",15936.26,15936.26,match,1.0,0.891,"15 936,26",both readers agree
+batch1-0343.jpg,vat,"1 593,63","$ 1 593,63",1593.63,1593.63,match,1.0,0.92,"1 593,63",both readers agree
+batch1-0343.jpg,gross_worth,"17 529,89","$ 17 529,89",17529.89,17529.89,match,1.0,0.917,"17 529,89",both readers agree
+batch1-0344.jpg,seller_name,Saunders-Lee,Saunders-Lee,saunders lee,saunders lee,match,1.0,0.959,Saunders-Lee,both readers agree
+batch1-0344.jpg,seller_tax_id,991-83-4896,991-83-4896,991834896,991834896,match,1.0,0.435,991-83-4896,both readers agree
+batch1-0344.jpg,client_name,Molina Inc,Molina Inc,molina,molina,match,1.0,0.938,Molina Inc,both readers agree
+batch1-0344.jpg,client_tax_id,936-85-0485,936-85-0485,936850485,936850485,match,1.0,0.563,936-85-0485,both readers agree
+batch1-0344.jpg,invoice_number,85473134,85473134,85473134,85473134,match,1.0,0.965,85473134,both readers agree
+batch1-0344.jpg,invoice_date,04/24/2017,04/24/2017,2017-04-24,2017-04-24,match,1.0,0.96,04/24/2017,both readers agree
+batch1-0344.jpg,net_worth,"808,87","$ 808,87",808.87,808.87,match,1.0,0.925,"808,87",both readers agree
+batch1-0344.jpg,vat,"80,89","$ 80,89",80.89,80.89,match,1.0,0.924,"80,89",both readers agree
+batch1-0344.jpg,gross_worth,"889,76","$ 889,76",889.76,889.76,match,1.0,0.937,"889,76",both readers agree
+batch1-0345.jpg,seller_name,Jones and Sons,Jones and Sons,jones and sons,jones and sons,match,1.0,0.929,Jones and Sons,both readers agree
+batch1-0345.jpg,seller_tax_id,952-76-3987,,952763987,,one_missing,0.0,,952-76-3987,only Gemini found a value (uncorroborated)
+batch1-0345.jpg,client_name,Hamilton-Simmons,Hamilton-Simmons,hamilton simmons,hamilton simmons,match,1.0,0.956,Hamilton-Simmons,both readers agree
+batch1-0345.jpg,client_tax_id,992-84-7640,992-84-7640,992847640,992847640,match,1.0,0.558,992-84-7640,both readers agree
+batch1-0345.jpg,invoice_number,92919413,92919413,92919413,92919413,match,1.0,0.964,92919413,both readers agree
+batch1-0345.jpg,invoice_date,10/04/2020,10/04/2020,2020-10-04,2020-10-04,match,1.0,0.95,10/04/2020,both readers agree
+batch1-0345.jpg,net_worth,"5 992,66","$ 5 992,66",5992.66,5992.66,match,1.0,0.915,"5 992,66",both readers agree
+batch1-0345.jpg,vat,"599,27","$ 599,27",599.27,599.27,match,1.0,0.925,"599,27",both readers agree
+batch1-0345.jpg,gross_worth,"6 591,93","$ 6 591,93",6591.93,6591.93,match,1.0,0.919,"6 591,93",both readers agree
+batch1-0346.jpg,seller_name,"Moran, Harris and Smith","Moran, Harris and Smith",moran harris and smith,moran harris and smith,match,1.0,0.921,"Moran, Harris and Smith",both readers agree
+batch1-0346.jpg,seller_tax_id,907-77-8712,,907778712,,one_missing,0.0,,907-77-8712,only Gemini found a value (uncorroborated)
+batch1-0346.jpg,client_name,Hughes-Raymond,Hughes-Raymond,hughes raymond,hughes raymond,match,1.0,0.958,Hughes-Raymond,both readers agree
+batch1-0346.jpg,client_tax_id,934-84-4841,934-84-4841,934844841,934844841,match,1.0,0.415,934-84-4841,both readers agree
+batch1-0346.jpg,invoice_number,49380136,49380136,49380136,49380136,match,1.0,0.968,49380136,both readers agree
+batch1-0346.jpg,invoice_date,02/21/2019,02/21/2019,2019-02-21,2019-02-21,match,1.0,0.967,02/21/2019,both readers agree
+batch1-0346.jpg,net_worth,"173,29","$ 173,29",173.29,173.29,match,1.0,0.916,"173,29",both readers agree
+batch1-0346.jpg,vat,"17,33","$ 17,33",17.33,17.33,match,1.0,0.926,"17,33",both readers agree
+batch1-0346.jpg,gross_worth,"190,62","$ 190,62",190.62,190.62,match,1.0,0.929,"190,62",both readers agree
+batch1-0347.jpg,seller_name,"Henderson, Brown and Carson","Henderson, Brown and Carson",henderson brown and carson,henderson brown and carson,match,1.0,0.923,"Henderson, Brown and Carson",both readers agree
+batch1-0347.jpg,seller_tax_id,975-87-2875,975-87-2875,975872875,975872875,match,1.0,0.474,975-87-2875,both readers agree
+batch1-0347.jpg,client_name,"Brown, Dodson and Weaver","Brown, Dodson and Weaver",brown dodson and weaver,brown dodson and weaver,match,1.0,0.921,"Brown, Dodson and Weaver",both readers agree
+batch1-0347.jpg,client_tax_id,981-79-3397,981-79-3397,981793397,981793397,match,1.0,0.414,981-79-3397,both readers agree
+batch1-0347.jpg,invoice_number,89042780,89042780,89042780,89042780,match,1.0,0.969,89042780,both readers agree
+batch1-0347.jpg,invoice_date,10/16/2015,10/16/2015,2015-10-16,2015-10-16,match,1.0,0.968,10/16/2015,both readers agree
+batch1-0347.jpg,net_worth,"1 908,56","$ 1 908,56",1908.56,1908.56,match,1.0,0.915,"1 908,56",both readers agree
+batch1-0347.jpg,vat,"190,86","$ 190,86",190.86,190.86,match,1.0,0.916,"190,86",both readers agree
+batch1-0347.jpg,gross_worth,"2 099,42","$ 2 099,42",2099.42,2099.42,match,1.0,0.92,"2 099,42",both readers agree
+batch1-0348.jpg,seller_name,Miller Inc,Miller Inc,miller,miller,match,1.0,0.939,Miller Inc,both readers agree
+batch1-0348.jpg,seller_tax_id,938-92-9047,938-92-9047,938929047,938929047,match,1.0,0.535,938-92-9047,both readers agree
+batch1-0348.jpg,client_name,Conley-Irwin,Conley-Irwin,conley irwin,conley irwin,match,1.0,0.513,Conley-Irwin,both readers agree
+batch1-0348.jpg,client_tax_id,997-98-1436,997-98-1436,997981436,997981436,match,1.0,0.555,997-98-1436,both readers agree
+batch1-0348.jpg,invoice_number,50956755,50956755,50956755,50956755,match,1.0,0.959,50956755,both readers agree
+batch1-0348.jpg,invoice_date,09/06/2019,09/06/2019,2019-09-06,2019-09-06,match,1.0,0.95,09/06/2019,both readers agree
+batch1-0348.jpg,net_worth,"29 049,84","$ 29 049,84",29049.84,29049.84,match,1.0,0.789,"29 049,84",both readers agree
+batch1-0348.jpg,vat,"2 904,98","$ 2 904,98",2904.98,2904.98,match,1.0,0.889,"2 904,98",both readers agree
+batch1-0348.jpg,gross_worth,"31 954,82","$ 31 954,82",31954.82,31954.82,match,1.0,0.918,"31 954,82",both readers agree
+batch1-0349.jpg,seller_name,"Hernandez, Barber and Jones","Hernandez, Barber and Jones",hernandez barber and jones,hernandez barber and jones,match,1.0,0.915,"Hernandez, Barber and Jones",both readers agree
+batch1-0349.jpg,seller_tax_id,934-99-4537,934-99-4537,934994537,934994537,match,1.0,0.443,934-99-4537,both readers agree
+batch1-0349.jpg,client_name,Hall-Skinner,Hall-Skinner,hall skinner,hall skinner,match,1.0,0.916,Hall-Skinner,both readers agree
+batch1-0349.jpg,client_tax_id,944-87-7634,944-87-7634,944877634,944877634,match,1.0,0.441,944-87-7634,both readers agree
+batch1-0349.jpg,invoice_number,39571754,39571754,39571754,39571754,match,1.0,0.965,39571754,both readers agree
+batch1-0349.jpg,invoice_date,07/03/2013,07/03/2013,2013-07-03,2013-07-03,match,1.0,0.956,07/03/2013,both readers agree
+batch1-0349.jpg,net_worth,"6 950,20","$ 6 950,20",6950.20,6950.20,match,1.0,0.894,"6 950,20",both readers agree
+batch1-0349.jpg,vat,"695,02","$ 695,02",695.02,695.02,match,1.0,0.926,"695,02",both readers agree
+batch1-0349.jpg,gross_worth,"7 645,22","$ 7 645,22",7645.22,7645.22,match,1.0,0.919,"7 645,22",both readers agree
+batch1-0350.jpg,seller_name,Daniel-Benson,Daniel-Benson,daniel benson,daniel benson,match,1.0,0.957,Daniel-Benson,both readers agree
+batch1-0350.jpg,seller_tax_id,991-85-2472,991-85-2472,991852472,991852472,match,1.0,0.443,991-85-2472,both readers agree
+batch1-0350.jpg,client_name,"Mcdonald, Jordan and Malone","Mcdonald, Jordan and Malone",mcdonald jordan and malone,mcdonald jordan and malone,match,1.0,0.917,"Mcdonald, Jordan and Malone",both readers agree
+batch1-0350.jpg,client_tax_id,925-92-0610,925-92-0610,925920610,925920610,match,1.0,0.412,925-92-0610,both readers agree
+batch1-0350.jpg,invoice_number,39077025,39077025,39077025,39077025,match,1.0,0.965,39077025,both readers agree
+batch1-0350.jpg,invoice_date,12/15/2011,12/15/2011,2011-12-15,2011-12-15,match,1.0,0.958,12/15/2011,both readers agree
+batch1-0350.jpg,net_worth,"3 546,94","$ 3 546,94",3546.94,3546.94,match,1.0,0.904,"3 546,94",both readers agree
+batch1-0350.jpg,vat,"354,69","$ 354,69",354.69,354.69,match,1.0,0.919,"354,69",both readers agree
+batch1-0350.jpg,gross_worth,"3 901,63","$ 3 901,63",3901.63,3901.63,match,1.0,0.919,"3 901,63",both readers agree
+batch1-0351.jpg,seller_name,Poole-Boyle,Poole-Boyle,poole boyle,poole boyle,match,1.0,0.972,Poole-Boyle,both readers agree
+batch1-0351.jpg,seller_tax_id,938-78-7124,938-78-7124,938787124,938787124,match,1.0,0.416,938-78-7124,both readers agree
+batch1-0351.jpg,client_name,"Ray, Hurst and Cruz","Ray, Hurst and Cruz",ray hurst and cruz,ray hurst and cruz,match,1.0,0.921,"Ray, Hurst and Cruz",both readers agree
+batch1-0351.jpg,client_tax_id,924-90-5219,924-90-5219,924905219,924905219,match,1.0,0.434,924-90-5219,both readers agree
+batch1-0351.jpg,invoice_number,77015917,77015917,77015917,77015917,match,1.0,0.973,77015917,both readers agree
+batch1-0351.jpg,invoice_date,12/21/2017,12/21/2017,2017-12-21,2017-12-21,match,1.0,0.973,12/21/2017,both readers agree
+batch1-0351.jpg,net_worth,"99,95","$ 99,95",99.95,99.95,match,1.0,0.74,"99,95",both readers agree
+batch1-0351.jpg,vat,"9,99","$ 9,99",9.99,9.99,match,1.0,0.809,"9,99",both readers agree
+batch1-0351.jpg,gross_worth,"109,94","$ 109,94",109.94,109.94,match,1.0,0.928,"109,94",both readers agree
+batch1-0352.jpg,seller_name,Fernandez LLC,Fernandez LLC,fernandez,fernandez,match,1.0,0.937,Fernandez LLC,both readers agree
+batch1-0352.jpg,seller_tax_id,984-86-2338,,984862338,,one_missing,0.0,,984-86-2338,only Gemini found a value (uncorroborated)
+batch1-0352.jpg,client_name,Brown-Carr,Brown-Carr,brown carr,brown carr,match,1.0,0.938,Brown-Carr,both readers agree
+batch1-0352.jpg,client_tax_id,906-94-4177,906-94-4177,906944177,906944177,match,1.0,0.347,906-94-4177,both readers agree
+batch1-0352.jpg,invoice_number,50554106,50554106,50554106,50554106,match,1.0,0.957,50554106,both readers agree
+batch1-0352.jpg,invoice_date,12/17/2012,12/17/2012,2012-12-17,2012-12-17,match,1.0,0.952,12/17/2012,both readers agree
+batch1-0352.jpg,net_worth,"17 148,75","$ 17 148,75",17148.75,17148.75,match,1.0,0.894,"17 148,75",both readers agree
+batch1-0352.jpg,vat,"1 714,88","$ 1 714,88",1714.88,1714.88,match,1.0,0.901,"1 714,88",both readers agree
+batch1-0352.jpg,gross_worth,"18 863,63","$ 18 863,63",18863.63,18863.63,match,1.0,0.92,"18 863,63",both readers agree
+batch1-0353.jpg,seller_name,Callahan and Sons,Callahan and Sons,callahan and sons,callahan and sons,match,1.0,0.93,Callahan and Sons,both readers agree
+batch1-0353.jpg,seller_tax_id,979-84-7639,,979847639,,one_missing,0.0,,979-84-7639,only Gemini found a value (uncorroborated)
+batch1-0353.jpg,client_name,King-Harris,King-Harris,king harris,king harris,match,1.0,0.938,King-Harris,both readers agree
+batch1-0353.jpg,client_tax_id,988-88-5388,988-88-5388,988885388,988885388,match,1.0,0.536,988-88-5388,both readers agree
+batch1-0353.jpg,invoice_number,10819011,10819011,10819011,10819011,match,1.0,0.967,10819011,both readers agree
+batch1-0353.jpg,invoice_date,02/09/2018,02/09/2018,2018-02-09,2018-02-09,match,1.0,0.966,02/09/2018,both readers agree
+batch1-0353.jpg,net_worth,"510,64","$ 510,64",510.64,510.64,match,1.0,0.917,"510,64",both readers agree
+batch1-0353.jpg,vat,"51,06","$ 51,06",51.06,51.06,match,1.0,0.927,"51,06",both readers agree
+batch1-0353.jpg,gross_worth,"561,70","$ 561,70",561.70,561.70,match,1.0,0.933,"561,70",both readers agree
+batch1-0354.jpg,seller_name,Garcia Ltd,Garcia Ltd,garcia,garcia,match,1.0,0.939,Garcia Ltd,both readers agree
+batch1-0354.jpg,seller_tax_id,996-99-0521,996-99-0521,996990521,996990521,match,1.0,0.436,996-99-0521,both readers agree
+batch1-0354.jpg,client_name,"Anderson, Davidson and Webster","Anderson, Davidson and Webster",anderson davidson and webster,anderson davidson and webster,match,1.0,0.916,"Anderson, Davidson and Webster",both readers agree
+batch1-0354.jpg,client_tax_id,977-75-8747,977-75-8747,977758747,977758747,match,1.0,0.416,977-75-8747,both readers agree
+batch1-0354.jpg,invoice_number,49929761,49929761,49929761,49929761,match,1.0,0.967,49929761,both readers agree
+batch1-0354.jpg,invoice_date,02/04/2021,02/04/2021,2021-02-04,2021-02-04,match,1.0,0.959,02/04/2021,both readers agree
+batch1-0354.jpg,net_worth,"3 459,66","$ 3 459,66",3459.66,3459.66,match,1.0,0.89,"3 459,66",both readers agree
+batch1-0354.jpg,vat,"345,97","$ 345,97",345.97,345.97,match,1.0,0.928,"345,97",both readers agree
+batch1-0354.jpg,gross_worth,"3 805,63","$ 3 805,63",3805.63,3805.63,match,1.0,0.92,"3 805,63",both readers agree
+batch1-0355.jpg,seller_name,"Logan, Deleon and Ayers","Logan, Deleon and Ayers",logan deleon and ayers,logan deleon and ayers,match,1.0,0.924,"Logan, Deleon and Ayers",both readers agree
+batch1-0355.jpg,seller_tax_id,977-99-2004,,977992004,,one_missing,0.0,,977-99-2004,only Gemini found a value (uncorroborated)
+batch1-0355.jpg,client_name,Moyer-Jones,Moyer-Jones,moyer jones,moyer jones,match,1.0,0.92,Moyer-Jones,both readers agree
+batch1-0355.jpg,client_tax_id,907-98-7260,,907987260,,one_missing,0.0,,907-98-7260,only Gemini found a value (uncorroborated)
+batch1-0355.jpg,invoice_number,92179921,92179921,92179921,92179921,match,1.0,0.97,92179921,both readers agree
+batch1-0355.jpg,invoice_date,10/11/2012,10/11/2012,2012-10-11,2012-10-11,match,1.0,0.968,10/11/2012,both readers agree
+batch1-0355.jpg,net_worth,"241,92","$ 241,92",241.92,241.92,match,1.0,0.915,"241,92",both readers agree
+batch1-0355.jpg,vat,"24,19","$ 24,19",24.19,24.19,match,1.0,0.817,"24,19",both readers agree
+batch1-0355.jpg,gross_worth,"266,11","$ 266,11",266.11,266.11,match,1.0,0.93,"266,11",both readers agree
+batch1-0356.jpg,seller_name,Peterson LLC,Peterson LLC,peterson,peterson,match,1.0,0.947,Peterson LLC,both readers agree
+batch1-0356.jpg,seller_tax_id,909-90-0060,909-90-0060,909900060,909900060,match,1.0,0.535,909-90-0060,both readers agree
+batch1-0356.jpg,client_name,"Williams, Yang and Jackson","Williams, Yang and Jackson",williams yang and jackson,williams yang and jackson,match,1.0,0.927,"Williams, Yang and Jackson",both readers agree
+batch1-0356.jpg,client_tax_id,926-74-8186,926-74-8186,926748186,926748186,match,1.0,0.529,926-74-8186,both readers agree
+batch1-0356.jpg,invoice_number,23385207,23385207,23385207,23385207,match,1.0,0.973,23385207,both readers agree
+batch1-0356.jpg,invoice_date,06/23/2012,06/23/2012,2012-06-23,2012-06-23,match,1.0,0.972,06/23/2012,both readers agree
+batch1-0356.jpg,net_worth,"240,00","$ 240,00",240.00,240.00,match,1.0,0.778,"240,00",both readers agree
+batch1-0356.jpg,vat,"24,00","$ 24,00",24.00,24.00,match,1.0,0.8,"24,00",both readers agree
+batch1-0356.jpg,gross_worth,"264,00","$ 264,00",264.00,264.00,match,1.0,0.937,"264,00",both readers agree
+batch1-0357.jpg,seller_name,Houston-Brooks,Houston-Brooks,houston brooks,houston brooks,match,1.0,0.969,Houston-Brooks,both readers agree
+batch1-0357.jpg,seller_tax_id,925-75-9384,,925759384,,one_missing,0.0,,925-75-9384,only Gemini found a value (uncorroborated)
+batch1-0357.jpg,client_name,"Moore, Hill and Ford","Moore, Hill and Ford",moore hill and ford,moore hill and ford,match,1.0,0.919,"Moore, Hill and Ford",both readers agree
+batch1-0357.jpg,client_tax_id,968-92-5785,968-92-5785,968925785,968925785,match,1.0,0.394,968-92-5785,both readers agree
+batch1-0357.jpg,invoice_number,19507687,19507687,19507687,19507687,match,1.0,0.97,19507687,both readers agree
+batch1-0357.jpg,invoice_date,09/19/2018,09/19/2018,2018-09-19,2018-09-19,match,1.0,0.968,09/19/2018,both readers agree
+batch1-0357.jpg,net_worth,"55 626,97","$ 55 626,97",55626.97,55626.97,match,1.0,0.888,"55 626,97",both readers agree
+batch1-0357.jpg,vat,"5 562,70","$ 5 562,70",5562.70,5562.70,match,1.0,0.888,"5 562,70",both readers agree
+batch1-0357.jpg,gross_worth,"61 189,67","$ 61 189,67",61189.67,61189.67,match,1.0,0.918,"61 189,67",both readers agree
+batch1-0358.jpg,seller_name,"Gardner, Tucker and Martinez","Gardner, Tucker and Martinez",gardner tucker and martinez,gardner tucker and martinez,match,1.0,0.926,"Gardner, Tucker and Martinez",both readers agree
+batch1-0358.jpg,seller_tax_id,935-91-0274,935-91-0274,935910274,935910274,match,1.0,0.536,935-91-0274,both readers agree
+batch1-0358.jpg,client_name,Robbins Group,Robbins Group,robbins group,robbins group,match,1.0,0.801,Robbins Group,both readers agree
+batch1-0358.jpg,client_tax_id,968-87-5481,968-87-5481,968875481,968875481,match,1.0,0.574,968-87-5481,both readers agree
+batch1-0358.jpg,invoice_number,61660848,61660848,61660848,61660848,match,1.0,0.973,61660848,both readers agree
+batch1-0358.jpg,invoice_date,05/30/2019,05/30/2019,2019-05-30,2019-05-30,match,1.0,0.972,05/30/2019,both readers agree
+batch1-0358.jpg,net_worth,"24,12","$ 24,12",24.12,24.12,match,1.0,0.803,"24,12",both readers agree
+batch1-0358.jpg,vat,"2,41","$ 2,41",2.41,2.41,match,1.0,0.916,"2,41",both readers agree
+batch1-0358.jpg,gross_worth,"26,53","$ 26,53",26.53,26.53,match,1.0,0.927,"26,53",both readers agree
+batch1-0359.jpg,seller_name,"Cook, Bartlett and Giles","Cook, Bartlett and Giles",cook bartlett and giles,cook bartlett and giles,match,1.0,0.927,"Cook, Bartlett and Giles",both readers agree
+batch1-0359.jpg,seller_tax_id,974-75-0534,974-75-0354,974750534,974750354,mismatch,0.0,0.428,974-75-0534,"readers disagree, no arithmetic tie-break - flagged for human review"
+batch1-0359.jpg,client_name,"Smith, Herrera and Graves","Smith, Herrera and Graves",smith herrera and graves,smith herrera and graves,match,1.0,0.925,"Smith, Herrera and Graves",both readers agree
+batch1-0359.jpg,client_tax_id,943-83-6136,943-83-6136,943836136,943836136,match,1.0,0.462,943-83-6136,both readers agree
+batch1-0359.jpg,invoice_number,29534383,29534383,29534383,29534383,match,1.0,0.972,29534383,both readers agree
+batch1-0359.jpg,invoice_date,05/30/2017,05/30/2017,2017-05-30,2017-05-30,match,1.0,0.971,05/30/2017,both readers agree
+batch1-0359.jpg,net_worth,"329,34","$ 329,34",329.34,329.34,match,1.0,0.916,"329,34",both readers agree
+batch1-0359.jpg,vat,"32,93","$ 32,93",32.93,32.93,match,1.0,0.915,"32,93",both readers agree
+batch1-0359.jpg,gross_worth,"362,27","$ 362,27",362.27,362.27,match,1.0,0.937,"362,27",both readers agree
+batch1-0360.jpg,seller_name,Mclean Inc,Mclean Inc,mclean,mclean,match,1.0,0.938,Mclean Inc,both readers agree
+batch1-0360.jpg,seller_tax_id,913-81-7541,,913817541,,one_missing,0.0,,913-81-7541,only Gemini found a value (uncorroborated)
+batch1-0360.jpg,client_name,Richards and Sons,Richards and Sons,richards and sons,richards and sons,match,1.0,0.927,Richards and Sons,both readers agree
+batch1-0360.jpg,client_tax_id,952-95-0332,952-95-0332,952950332,952950332,match,1.0,0.368,952-95-0332,both readers agree
+batch1-0360.jpg,invoice_number,58126171,58126171,58126171,58126171,match,1.0,0.966,58126171,both readers agree
+batch1-0360.jpg,invoice_date,08/14/2015,08/14/2015,2015-08-14,2015-08-14,match,1.0,0.959,08/14/2015,both readers agree
+batch1-0360.jpg,net_worth,"30 884,30","$ 30 884,30",30884.30,30884.30,match,1.0,0.915,"30 884,30",both readers agree
+batch1-0360.jpg,vat,"3 088,43","$ 3 088,43",3088.43,3088.43,match,1.0,0.917,"3 088,43",both readers agree
+batch1-0360.jpg,gross_worth,"33 972,73","$ 33 972,73",33972.73,33972.73,match,1.0,0.922,"33 972,73",both readers agree
+batch1-0361.jpg,seller_name,Johnson-Young,Johnson-Young,johnson young,johnson young,match,1.0,0.95,Johnson-Young,both readers agree
+batch1-0361.jpg,seller_tax_id,937-77-5283,937-77-5283,937775283,937775283,match,1.0,0.423,937-77-5283,both readers agree
+batch1-0361.jpg,client_name,"Garcia, Meyer and Cook","Garcia, Meyer and Cook",garcia meyer and cook,garcia meyer and cook,match,1.0,0.917,"Garcia, Meyer and Cook",both readers agree
+batch1-0361.jpg,client_tax_id,907-73-8031,907-73-8031,907738031,907738031,match,1.0,0.553,907-73-8031,both readers agree
+batch1-0361.jpg,invoice_number,86575728,86575728,86575728,86575728,match,1.0,0.963,86575728,both readers agree
+batch1-0361.jpg,invoice_date,11/24/2014,11/24/2014,2014-11-24,2014-11-24,match,1.0,0.957,11/24/2014,both readers agree
+batch1-0361.jpg,net_worth,"906,70","$ 906,70",906.70,906.70,match,1.0,0.811,"906,70",both readers agree
+batch1-0361.jpg,vat,"90,67","$ 90,67",90.67,90.67,match,1.0,0.813,"90,67",both readers agree
+batch1-0361.jpg,gross_worth,"997,37","$ 997,37",997.37,997.37,match,1.0,0.928,"997,37",both readers agree
+batch1-0362.jpg,seller_name,Smith-Torres,Smith-Torres,smith torres,smith torres,match,1.0,0.967,Smith-Torres,both readers agree
+batch1-0362.jpg,seller_tax_id,927-81-6187,927-81-6187,927816187,927816187,match,1.0,0.587,927-81-6187,both readers agree
+batch1-0362.jpg,client_name,"Medina, Moss and Martin","Medina, Moss and Martin",medina moss and martin,medina moss and martin,match,1.0,0.927,"Medina, Moss and Martin",both readers agree
+batch1-0362.jpg,client_tax_id,915-85-0288,915-85-0288,915850288,915850288,match,1.0,0.657,915-85-0288,both readers agree
+batch1-0362.jpg,invoice_number,76628307,76628307,76628307,76628307,match,1.0,0.968,76628307,both readers agree
+batch1-0362.jpg,invoice_date,05/05/2019,05/05/2019,2019-05-05,2019-05-05,match,1.0,0.965,05/05/2019,both readers agree
+batch1-0362.jpg,net_worth,"3 084,91","$ 3 084,91",3084.91,3084.91,match,1.0,0.916,"3 084,91",both readers agree
+batch1-0362.jpg,vat,"308,49","$ 308,49",308.49,308.49,match,1.0,0.939,"308,49",both readers agree
+batch1-0362.jpg,gross_worth,"3 393,40","$ 3 393,40",3393.40,3393.40,match,1.0,0.93,"3 393,40",both readers agree
+batch1-0363.jpg,seller_name,Nichols-Powell,Nichols-Powell,nichols powell,nichols powell,match,1.0,0.977,Nichols-Powell,both readers agree
+batch1-0363.jpg,seller_tax_id,956-84-2083,956-84-2083,956842083,956842083,match,1.0,0.353,956-84-2083,both readers agree
+batch1-0363.jpg,client_name,Ballard-Henry,"Ballard-Henry
+USNS Brown",ballard henry,ballard henry usns brown,mismatch,0.703,0.908,Ballard-Henry,"readers disagree, no arithmetic tie-break - flagged for human review"
+batch1-0363.jpg,client_tax_id,923-84-5244,923-84-5244,923845244,923845244,match,1.0,0.416,923-84-5244,both readers agree
+batch1-0363.jpg,invoice_number,16499996,16499996,16499996,16499996,match,1.0,0.978,16499996,both readers agree
+batch1-0363.jpg,invoice_date,05/05/2019,05/05/2019,2019-05-05,2019-05-05,match,1.0,0.976,05/05/2019,both readers agree
+batch1-0363.jpg,net_worth,"19,50","$ 19,50",19.50,19.50,match,1.0,0.793,"19,50",both readers agree
+batch1-0363.jpg,vat,"1,95","$ 1,95",1.95,1.95,match,1.0,0.915,"1,95",both readers agree
+batch1-0363.jpg,gross_worth,"21,45","$ 21,45",21.45,21.45,match,1.0,0.937,"21,45",both readers agree
+batch1-0364.jpg,seller_name,Thomas-Andrade,Thomas-Andrade,thomas andrade,thomas andrade,match,1.0,0.97,Thomas-Andrade,both readers agree
+batch1-0364.jpg,seller_tax_id,972-90-5571,972-90-5571,972905571,972905571,match,1.0,0.371,972-90-5571,both readers agree
+batch1-0364.jpg,client_name,"Macdonald, Bentley and Nguyen","Macdonald, Bentley and Nguyen",macdonald bentley and nguyen,macdonald bentley and nguyen,match,1.0,0.92,"Macdonald, Bentley and Nguyen",both readers agree
+batch1-0364.jpg,client_tax_id,988-84-2670,988-84-2670,988842670,988842670,match,1.0,0.345,988-84-2670,both readers agree
+batch1-0364.jpg,invoice_number,61113263,61113263,61113263,61113263,match,1.0,0.971,61113263,both readers agree
+batch1-0364.jpg,invoice_date,02/04/2014,02/04/2014,2014-02-04,2014-02-04,match,1.0,0.969,02/04/2014,both readers agree
+batch1-0364.jpg,net_worth,"23 935,84","$ 23 935,84",23935.84,23935.84,match,1.0,0.913,"23 935,84",both readers agree
+batch1-0364.jpg,vat,"2 393,58","$ 2 393,58",2393.58,2393.58,match,1.0,0.893,"2 393,58",both readers agree
+batch1-0364.jpg,gross_worth,"26 329,42","$ 26 329,42",26329.42,26329.42,match,1.0,0.925,"26 329,42",both readers agree
+batch1-0365.jpg,seller_name,Lee Inc,Lee Inc,lee,lee,match,1.0,0.938,Lee Inc,both readers agree
+batch1-0365.jpg,seller_tax_id,952-96-9876,952-96-9876,952969876,952969876,match,1.0,0.58,952-96-9876,both readers agree
+batch1-0365.jpg,client_name,Olsen Ltd,"Olsen Ltd
+USCGC Mann",olsen,olsen uscgc mann,mismatch,0.476,0.666,Olsen Ltd,"readers disagree, no arithmetic tie-break - flagged for human review"
+batch1-0365.jpg,client_tax_id,932-73-0621,932-73-0621,932730621,932730621,match,1.0,0.668,932-73-0621,both readers agree
+batch1-0365.jpg,invoice_number,41887329,41887329,41887329,41887329,match,1.0,0.95,41887329,both readers agree
+batch1-0365.jpg,invoice_date,11/26/2020,11/26/2020,2020-11-26,2020-11-26,match,1.0,0.948,11/26/2020,both readers agree
+batch1-0365.jpg,net_worth,"17 349,93","$ 17 349,93",17349.93,17349.93,match,1.0,0.893,"17 349,93",both readers agree
+batch1-0365.jpg,vat,"1 734,99","$ 1 734,99",1734.99,1734.99,match,1.0,0.916,"1 734,99",both readers agree
+batch1-0365.jpg,gross_worth,"19 084,92","$ 19 084,92",19084.92,19084.92,match,1.0,0.895,"19 084,92",both readers agree
+batch1-0366.jpg,seller_name,Williams Ltd,Williams Ltd,williams,williams,match,1.0,0.938,Williams Ltd,both readers agree
+batch1-0366.jpg,seller_tax_id,964-85-1307,,964851307,,one_missing,0.0,,964-85-1307,only Gemini found a value (uncorroborated)
+batch1-0366.jpg,client_name,Gross PLC,Gross PLC,gross,gross,match,1.0,0.931,Gross PLC,both readers agree
+batch1-0366.jpg,client_tax_id,963-76-2257,963-76-2257,963762257,963762257,match,1.0,0.438,963-76-2257,both readers agree
+batch1-0366.jpg,invoice_number,74583312,74583312,74583312,74583312,match,1.0,0.96,74583312,both readers agree
+batch1-0366.jpg,invoice_date,05/05/2015,05/05/2015,2015-05-05,2015-05-05,match,1.0,0.95,05/05/2015,both readers agree
+batch1-0366.jpg,net_worth,"634,36","$ 634,36",634.36,634.36,match,1.0,0.818,"634,36",both readers agree
+batch1-0366.jpg,vat,"63,44","$ 63,44",63.44,63.44,match,1.0,0.893,"63,44",both readers agree
+batch1-0366.jpg,gross_worth,"697,80","$ 697,80",697.80,697.80,match,1.0,0.927,"697,80",both readers agree
+batch1-0367.jpg,seller_name,Day and Sons,Day and Sons,day and sons,day and sons,match,1.0,0.93,Day and Sons,both readers agree
+batch1-0367.jpg,seller_tax_id,908-94-9799,908-94-9799,908949799,908949799,match,1.0,0.444,908-94-9799,both readers agree
+batch1-0367.jpg,client_name,"Phillips, Burton and Mcdaniel","Phillips, Burton and Mcdaniel",phillips burton and mcdaniel,phillips burton and mcdaniel,match,1.0,0.917,"Phillips, Burton and Mcdaniel",both readers agree
+batch1-0367.jpg,client_tax_id,932-85-2181,932-85-2181,932852181,932852181,match,1.0,0.443,932-85-2181,both readers agree
+batch1-0367.jpg,invoice_number,23995139,23995139,23995139,23995139,match,1.0,0.956,23995139,both readers agree
+batch1-0367.jpg,invoice_date,05/30/2015,05/30/2015,2015-05-30,2015-05-30,match,1.0,0.95,05/30/2015,both readers agree
+batch1-0367.jpg,net_worth,"84 944,82","$ 84 944,82",84944.82,84944.82,match,1.0,0.898,"84 944,82",both readers agree
+batch1-0367.jpg,vat,"8 494,48","$ 8 494,48",8494.48,8494.48,match,1.0,0.916,"8 494,48",both readers agree
+batch1-0367.jpg,gross_worth,"93 439,30","$ 93 439,30",93439.30,93439.30,match,1.0,0.918,"93 439,30",both readers agree
+batch1-0368.jpg,seller_name,Horne-Fields,Horne-Fields,horne fields,horne fields,match,1.0,0.974,Horne-Fields,both readers agree
+batch1-0368.jpg,seller_tax_id,964-80-0842,,964800842,,one_missing,0.0,,964-80-0842,only Gemini found a value (uncorroborated)
+batch1-0368.jpg,client_name,French-Sullivan,French-Sullivan,french sullivan,french sullivan,match,1.0,0.972,French-Sullivan,both readers agree
+batch1-0368.jpg,client_tax_id,905-94-4635,905-94-4635,905944635,905944635,match,1.0,0.44,905-94-4635,both readers agree
+batch1-0368.jpg,invoice_number,87934175,87934175,87934175,87934175,match,1.0,0.974,87934175,both readers agree
+batch1-0368.jpg,invoice_date,10/19/2016,10/19/2016,2016-10-19,2016-10-19,match,1.0,0.973,10/19/2016,both readers agree
+batch1-0368.jpg,net_worth,"97,98","$ 97,98",97.98,97.98,match,1.0,0.917,"97,98",both readers agree
+batch1-0368.jpg,vat,"9,80","$ 9,80",9.80,9.80,match,1.0,0.921,"9,80",both readers agree
+batch1-0368.jpg,gross_worth,"107,78","$ 107,78",107.78,107.78,match,1.0,0.937,"107,78",both readers agree
+batch1-0369.jpg,seller_name,Miller Inc,Miller Inc,miller,miller,match,1.0,0.938,Miller Inc,both readers agree
+batch1-0369.jpg,seller_tax_id,909-72-0896,,909720896,,one_missing,0.0,,909-72-0896,only Gemini found a value (uncorroborated)
+batch1-0369.jpg,client_name,"Mason, Melton and Matthews","Mason, Melton and Matthews",mason melton and matthews,mason melton and matthews,match,1.0,0.916,"Mason, Melton and Matthews",both readers agree
+batch1-0369.jpg,client_tax_id,911-83-0636,911-83-0636,911830636,911830636,match,1.0,0.334,911-83-0636,both readers agree
+batch1-0369.jpg,invoice_number,64809205,64809205,64809205,64809205,match,1.0,0.962,64809205,both readers agree
+batch1-0369.jpg,invoice_date,08/18/2014,08/18/2014,2014-08-18,2014-08-18,match,1.0,0.955,08/18/2014,both readers agree
+batch1-0369.jpg,net_worth,"651,15","$ 651,15",651.15,651.15,match,1.0,0.723,"651,15",both readers agree
+batch1-0369.jpg,vat,"65,12","$ 65,12",65.12,65.12,match,1.0,0.817,"65,12",both readers agree
+batch1-0369.jpg,gross_worth,"716,27","$ 716,27",716.27,716.27,match,1.0,0.925,"716,27",both readers agree
+batch1-0370.jpg,seller_name,"Thornton, Franklin and Hamilton","Thornton, Franklin and Hamilton",thornton franklin and hamilton,thornton franklin and hamilton,match,1.0,0.918,"Thornton, Franklin and Hamilton",both readers agree
+batch1-0370.jpg,seller_tax_id,998-77-7262,998-77-7262,998777262,998777262,match,1.0,0.559,998-77-7262,both readers agree
+batch1-0370.jpg,client_name,"Farmer, Pennington and Osborn","Farmer, Pennington and Osborn",farmer pennington and osborn,farmer pennington and osborn,match,1.0,0.917,"Farmer, Pennington and Osborn",both readers agree
+batch1-0370.jpg,client_tax_id,997-74-8995,997-74-8995,997748995,997748995,match,1.0,0.441,997-74-8995,both readers agree
+batch1-0370.jpg,invoice_number,11637316,11637316,11637316,11637316,match,1.0,0.956,11637316,both readers agree
+batch1-0370.jpg,invoice_date,03/21/2015,03/21/2015,2015-03-21,2015-03-21,match,1.0,0.949,03/21/2015,both readers agree
+batch1-0370.jpg,net_worth,"3 763,69","$ 3 763,69",3763.69,3763.69,match,1.0,0.893,"3 763,69",both readers agree
+batch1-0370.jpg,vat,"376,37","$ 376,37",376.37,376.37,match,1.0,0.927,"376,37",both readers agree
+batch1-0370.jpg,gross_worth,"4 140,06","$ 4 140,06",4140.06,4140.06,match,1.0,0.917,"4 140,06",both readers agree
+batch1-0371.jpg,seller_name,Lewis and Sons,Lewis and Sons,lewis and sons,lewis and sons,match,1.0,0.938,Lewis and Sons,both readers agree
+batch1-0371.jpg,seller_tax_id,988-97-7797,,988977797,,one_missing,0.0,,988-97-7797,only Gemini found a value (uncorroborated)
+batch1-0371.jpg,client_name,Hancock LLC,Hancock LLC,hancock,hancock,match,1.0,0.944,Hancock LLC,both readers agree
+batch1-0371.jpg,client_tax_id,982-72-2795,982-72-2795,982722795,982722795,match,1.0,0.346,982-72-2795,both readers agree
+batch1-0371.jpg,invoice_number,39652805,39652805,39652805,39652805,match,1.0,0.974,39652805,both readers agree
+batch1-0371.jpg,invoice_date,03/20/2020,03/20/2020,2020-03-20,2020-03-20,match,1.0,0.973,03/20/2020,both readers agree
+batch1-0371.jpg,net_worth,"299,99","$ 299,99",299.99,299.99,match,1.0,0.82,"299,99",both readers agree
+batch1-0371.jpg,vat,"30,00","$ 30,00",30.00,30.00,match,1.0,0.924,"30,00",both readers agree
+batch1-0371.jpg,gross_worth,"329,99","$ 329,99",329.99,329.99,match,1.0,0.94,"329,99",both readers agree
+batch1-0372.jpg,seller_name,Hart-Wright,Hart-Wright,hart wright,hart wright,match,1.0,0.957,Hart-Wright,both readers agree
+batch1-0372.jpg,seller_tax_id,953-74-2648,953-74-2648,953742648,953742648,match,1.0,0.439,953-74-2648,both readers agree
+batch1-0372.jpg,client_name,Foster-Parks,Foster-Parks,foster parks,foster parks,match,1.0,0.947,Foster-Parks,both readers agree
+batch1-0372.jpg,client_tax_id,943-86-1330,943-86-1330,943861330,943861330,match,1.0,0.536,943-86-1330,both readers agree
+batch1-0372.jpg,invoice_number,15172184,15172184,15172184,15172184,match,1.0,0.965,15172184,both readers agree
+batch1-0372.jpg,invoice_date,08/24/2017,08/24/2017,2017-08-24,2017-08-24,match,1.0,0.96,08/24/2017,both readers agree
+batch1-0372.jpg,net_worth,"4 819,90","$ 4 819,90",4819.90,4819.90,match,1.0,0.915,"4 819,90",both readers agree
+batch1-0372.jpg,vat,"481,99","$ 481,99",481.99,481.99,match,1.0,0.93,"481,99",both readers agree
+batch1-0372.jpg,gross_worth,"5 301,89","$ 5 301,89",5301.89,5301.89,match,1.0,0.925,"5 301,89",both readers agree
+batch1-0373.jpg,seller_name,Jones-Silva,Jones-Silva,jones silva,jones silva,match,1.0,0.973,Jones-Silva,both readers agree
+batch1-0373.jpg,seller_tax_id,902-82-9449,902-82-9449,902829449,902829449,match,1.0,0.424,902-82-9449,both readers agree
+batch1-0373.jpg,client_name,Stafford and Sons,Stafford and Sons,stafford and sons,stafford and sons,match,1.0,0.937,Stafford and Sons,both readers agree
+batch1-0373.jpg,client_tax_id,910-94-4040,910-94-4040,910944040,910944040,match,1.0,0.494,910-94-4040,both readers agree
+batch1-0373.jpg,invoice_number,99454334,99454334,99454334,99454334,match,1.0,0.974,99454334,both readers agree
+batch1-0373.jpg,invoice_date,07/08/2017,07/08/2017,2017-07-08,2017-07-08,match,1.0,0.973,07/08/2017,both readers agree
+batch1-0373.jpg,net_worth,"96,00","$ 96,00",96.00,96.00,match,1.0,0.921,"96,00",both readers agree
+batch1-0373.jpg,vat,"9,60","$ 9,60",9.60,9.60,match,1.0,0.922,"9,60",both readers agree
+batch1-0373.jpg,gross_worth,"105,60","$ 105,60",105.60,105.60,match,1.0,0.938,"105,60",both readers agree
+batch1-0374.jpg,seller_name,Kirby Group,Kirby Group,kirby group,kirby group,match,1.0,0.945,Kirby Group,both readers agree
+batch1-0374.jpg,seller_tax_id,968-79-4900,968-79-4900,968794900,968794900,match,1.0,0.414,968-79-4900,both readers agree
+batch1-0374.jpg,client_name,Martin-Allison,Martin-Allison,martin allison,martin allison,match,1.0,0.967,Martin-Allison,both readers agree
+batch1-0374.jpg,client_tax_id,943-81-3637,943-81-3637,943813637,943813637,match,1.0,0.553,943-81-3637,both readers agree
+batch1-0374.jpg,invoice_number,87873157,87873157,87873157,87873157,match,1.0,0.974,87873157,both readers agree
+batch1-0374.jpg,invoice_date,05/09/2017,05/09/2017,2017-05-09,2017-05-09,match,1.0,0.973,05/09/2017,both readers agree
+batch1-0374.jpg,net_worth,"6,00","$ 6,00",6.00,6.00,match,1.0,0.78,"6,00",both readers agree
+batch1-0374.jpg,vat,"0,60","$ 0,60",0.60,0.60,match,1.0,0.915,"0,60",both readers agree
+batch1-0374.jpg,gross_worth,"6,60","$ 6,60",6.60,6.60,match,1.0,0.928,"6,60",both readers agree
+batch1-0375.jpg,seller_name,"Moore, Thomas and Crosby","Moore, Thomas and Crosby",moore thomas and crosby,moore thomas and crosby,match,1.0,0.918,"Moore, Thomas and Crosby",both readers agree
+batch1-0375.jpg,seller_tax_id,943-88-9123,943-88-9123,943889123,943889123,match,1.0,0.551,943-88-9123,both readers agree
+batch1-0375.jpg,client_name,Aguirre Ltd,Aguirre Ltd,aguirre,aguirre,match,1.0,0.937,Aguirre Ltd,both readers agree
+batch1-0375.jpg,client_tax_id,924-73-4934,924-73-4934,924734934,924734934,match,1.0,0.649,924-73-4934,both readers agree
+batch1-0375.jpg,invoice_number,23897213,23897213,23897213,23897213,match,1.0,0.96,23897213,both readers agree
+batch1-0375.jpg,invoice_date,07/14/2019,07/14/2019,2019-07-14,2019-07-14,match,1.0,0.95,07/14/2019,both readers agree
+batch1-0375.jpg,net_worth,"252,63","$ 252,63",252.63,252.63,match,1.0,0.93,"252,63",both readers agree
+batch1-0375.jpg,vat,"25,26","$ 25,26",25.26,25.26,match,1.0,0.929,"25,26",both readers agree
+batch1-0375.jpg,gross_worth,"277,89","$ 277,89",277.89,277.89,match,1.0,0.937,"277,89",both readers agree
+batch1-0376.jpg,seller_name,Ross Group,Ross Group,ross group,ross group,match,1.0,0.941,Ross Group,both readers agree
+batch1-0376.jpg,seller_tax_id,929-73-9404,929-73-9404,929739404,929739404,match,1.0,0.415,929-73-9404,both readers agree
+batch1-0376.jpg,client_name,Leblanc and Sons,Leblanc and Sons,leblanc and sons,leblanc and sons,match,1.0,0.927,Leblanc and Sons,both readers agree
+batch1-0376.jpg,client_tax_id,963-87-9848,963-87-9848,963879848,963879848,match,1.0,0.553,963-87-9848,both readers agree
+batch1-0376.jpg,invoice_number,60518602,60518602,60518602,60518602,match,1.0,0.97,60518602,both readers agree
+batch1-0376.jpg,invoice_date,08/30/2016,08/30/2016,2016-08-30,2016-08-30,match,1.0,0.969,08/30/2016,both readers agree
+batch1-0376.jpg,net_worth,"2 334,95","$ 2 334,95",2334.95,2334.95,match,1.0,0.905,"2 334,95",both readers agree
+batch1-0376.jpg,vat,"233,50","$ 233,50",233.50,233.50,match,1.0,0.809,"233,50",both readers agree
+batch1-0376.jpg,gross_worth,"2 568,45","$ 2 568,45",2568.45,2568.45,match,1.0,0.926,"2 568,45",both readers agree
+batch1-0377.jpg,seller_name,Wilkins Ltd,Wilkins Ltd,wilkins,wilkins,match,1.0,0.939,Wilkins Ltd,both readers agree
+batch1-0377.jpg,seller_tax_id,928-96-4400,,928964400,,one_missing,0.0,,928-96-4400,only Gemini found a value (uncorroborated)
+batch1-0377.jpg,client_name,Ross Inc,Ross Inc,ross,ross,match,1.0,0.933,Ross Inc,both readers agree
+batch1-0377.jpg,client_tax_id,939-96-7563,,939967563,,one_missing,0.0,,939-96-7563,only Gemini found a value (uncorroborated)
+batch1-0377.jpg,invoice_number,35259356,35259356,35259356,35259356,match,1.0,0.967,35259356,both readers agree
+batch1-0377.jpg,invoice_date,01/20/2018,01/20/2018,2018-01-20,2018-01-20,match,1.0,0.966,01/20/2018,both readers agree
+batch1-0377.jpg,net_worth,"629,80","$ 629,80",629.80,629.80,match,1.0,0.917,"629,80",both readers agree
+batch1-0377.jpg,vat,"62,98","$ 62,98",62.98,62.98,match,1.0,0.925,"62,98",both readers agree
+batch1-0377.jpg,gross_worth,"692,78","$ 692,78",692.78,692.78,match,1.0,0.93,"692,78",both readers agree
+batch1-0378.jpg,seller_name,Duran Group,Duran Group,duran group,duran group,match,1.0,0.946,Duran Group,both readers agree
+batch1-0378.jpg,seller_tax_id,917-88-4853,,917884853,,one_missing,0.0,,917-88-4853,only Gemini found a value (uncorroborated)
+batch1-0378.jpg,client_name,Mayer-Bates,Mayer-Bates,mayer bates,mayer bates,match,1.0,0.968,Mayer-Bates,both readers agree
+batch1-0378.jpg,client_tax_id,954-81-3871,954-81-3871,954813871,954813871,match,1.0,0.498,954-81-3871,both readers agree
+batch1-0378.jpg,invoice_number,74263194,74263194,74263194,74263194,match,1.0,0.972,74263194,both readers agree
+batch1-0378.jpg,invoice_date,03/28/2020,03/28/2020,2020-03-28,2020-03-28,match,1.0,0.971,03/28/2020,both readers agree
+batch1-0378.jpg,net_worth,"119,93","$ 119,93",119.93,119.93,match,1.0,0.915,"119,93",both readers agree
+batch1-0378.jpg,vat,"11,99","$ 11,99",11.99,11.99,match,1.0,0.819,"11,99",both readers agree
+batch1-0378.jpg,gross_worth,"131,92","$ 131,92",131.92,131.92,match,1.0,0.936,"131,92",both readers agree
+batch1-0379.jpg,seller_name,"Howell, Underwood and Davis","Howell, Underwood and Davis",howell underwood and davis,howell underwood and davis,match,1.0,0.921,"Howell, Underwood and Davis",both readers agree
+batch1-0379.jpg,seller_tax_id,989-83-0730,,989830730,,one_missing,0.0,,989-83-0730,only Gemini found a value (uncorroborated)
+batch1-0379.jpg,client_name,Gardner LLC,Gardner LLC,gardner,gardner,match,1.0,0.938,Gardner LLC,both readers agree
+batch1-0379.jpg,client_tax_id,948-94-1459,948-94-1459,948941459,948941459,match,1.0,0.415,948-94-1459,both readers agree
+batch1-0379.jpg,invoice_number,59051048,59051048,59051048,59051048,match,1.0,0.968,59051048,both readers agree
+batch1-0379.jpg,invoice_date,12/12/2015,12/12/2015,2015-12-12,2015-12-12,match,1.0,0.965,12/12/2015,both readers agree
+batch1-0379.jpg,net_worth,"267,52","$ 267,52",267.52,267.52,match,1.0,0.819,"267,52",both readers agree
+batch1-0379.jpg,vat,"26,75","$ 26,75",26.75,26.75,match,1.0,0.923,"26,75",both readers agree
+batch1-0379.jpg,gross_worth,"294,27","$ 294,27",294.27,294.27,match,1.0,0.93,"294,27",both readers agree
+batch1-0380.jpg,seller_name,Montgomery LLC,Montgomery LLC,montgomery,montgomery,match,1.0,0.94,Montgomery LLC,both readers agree
+batch1-0380.jpg,seller_tax_id,924-83-8802,,924838802,,one_missing,0.0,,924-83-8802,only Gemini found a value (uncorroborated)
+batch1-0380.jpg,client_name,Campbell-Flores,Campbell-Flores,campbell flores,campbell flores,match,1.0,0.948,Campbell-Flores,both readers agree
+batch1-0380.jpg,client_tax_id,999-80-5625,999-80-5625,999805625,999805625,match,1.0,0.415,999-80-5625,both readers agree
+batch1-0380.jpg,invoice_number,13310164,13310164,13310164,13310164,match,1.0,0.969,13310164,both readers agree
+batch1-0380.jpg,invoice_date,01/16/2020,01/16/2020,2020-01-16,2020-01-16,match,1.0,0.968,01/16/2020,both readers agree
+batch1-0380.jpg,net_worth,"17 045,00","$ 17 045,00",17045.00,17045.00,match,1.0,0.889,"17 045,00",both readers agree
+batch1-0380.jpg,vat,"1 704,50","$ 1 704,50",1704.50,1704.50,match,1.0,0.917,"1 704,50",both readers agree
+batch1-0380.jpg,gross_worth,"18 749,50","$ 18 749,50",18749.50,18749.50,match,1.0,0.918,"18 749,50",both readers agree

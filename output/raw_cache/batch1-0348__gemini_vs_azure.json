@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0348.jpg",
+  "reader_a": {
+    "seller_name": "Miller Inc",
+    "seller_tax_id": "938-92-9047",
+    "client_name": "Conley-Irwin",
+    "client_tax_id": "997-98-1436",
+    "invoice_number": "50956755",
+    "invoice_date": "09/06/2019",
+    "net_worth": "29 049,84",
+    "vat": "2 904,98",
+    "gross_worth": "31 954,82",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1732
+  },
+  "reader_b": {
+    "seller_name": "Miller Inc",
+    "seller_tax_id": "938-92-9047",
+    "client_name": "Conley-Irwin",
+    "client_tax_id": "997-98-1436",
+    "invoice_number": "50956755",
+    "invoice_date": "09/06/2019",
+    "net_worth": "$ 29 049,84",
+    "vat": "$ 2 904,98",
+    "gross_worth": "$ 31 954,82",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.939,
+      "seller_tax_id": 0.535,
+      "client_name": 0.513,
+      "client_tax_id": 0.555,
+      "invoice_number": 0.959,
+      "invoice_date": 0.95,
+      "net_worth": 0.789,
+      "vat": 0.889,
+      "gross_worth": 0.918
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

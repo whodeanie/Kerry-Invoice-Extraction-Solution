@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0354.jpg",
+  "reader_a": {
+    "seller_name": "Garcia Ltd",
+    "seller_tax_id": "996-99-0521",
+    "client_name": "Anderson, Davidson and Webster",
+    "client_tax_id": "977-75-8747",
+    "invoice_number": "49929761",
+    "invoice_date": "02/04/2021",
+    "net_worth": "3 459,66",
+    "vat": "345,97",
+    "gross_worth": "3 805,63",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2557
+  },
+  "reader_b": {
+    "seller_name": "Garcia Ltd",
+    "seller_tax_id": "996-99-0521",
+    "client_name": "Anderson, Davidson and Webster",
+    "client_tax_id": "977-75-8747",
+    "invoice_number": "49929761",
+    "invoice_date": "02/04/2021",
+    "net_worth": "$ 3 459,66",
+    "vat": "$ 345,97",
+    "gross_worth": "$ 3 805,63",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.939,
+      "seller_tax_id": 0.436,
+      "client_name": 0.916,
+      "client_tax_id": 0.416,
+      "invoice_number": 0.967,
+      "invoice_date": 0.959,
+      "net_worth": 0.89,
+      "vat": 0.928,
+      "gross_worth": 0.92
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

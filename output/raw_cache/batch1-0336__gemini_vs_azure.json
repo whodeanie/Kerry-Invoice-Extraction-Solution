@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0336.jpg",
+  "reader_a": {
+    "seller_name": "Decker PLC",
+    "seller_tax_id": "957-87-4031",
+    "client_name": "Boyle Ltd",
+    "client_tax_id": "993-86-3706",
+    "invoice_number": "97511742",
+    "invoice_date": "04/07/2016",
+    "net_worth": "4 314,93",
+    "vat": "431,49",
+    "gross_worth": "4 746,42",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1802
+  },
+  "reader_b": {
+    "seller_name": "Decker PLC",
+    "seller_tax_id": "957-87-4031",
+    "client_name": "Boyle Ltd",
+    "client_tax_id": "993-86-3706",
+    "invoice_number": "97511742",
+    "invoice_date": "04/07/2016",
+    "net_worth": "$ 4 314,93",
+    "vat": "$ 431,49",
+    "gross_worth": "$ 4 746,42",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.939,
+      "seller_tax_id": 0.818,
+      "client_name": 0.938,
+      "client_tax_id": 0.818,
+      "invoice_number": 0.966,
+      "invoice_date": 0.962,
+      "net_worth": 0.925,
+      "vat": 0.936,
+      "gross_worth": 0.926
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

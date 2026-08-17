@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0347.jpg",
+  "reader_a": {
+    "seller_name": "Henderson, Brown and Carson",
+    "seller_tax_id": "975-87-2875",
+    "client_name": "Brown, Dodson and Weaver",
+    "client_tax_id": "981-79-3397",
+    "invoice_number": "89042780",
+    "invoice_date": "10/16/2015",
+    "net_worth": "1 908,56",
+    "vat": "190,86",
+    "gross_worth": "2 099,42",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 2137
+  },
+  "reader_b": {
+    "seller_name": "Henderson, Brown and Carson",
+    "seller_tax_id": "975-87-2875",
+    "client_name": "Brown, Dodson and Weaver",
+    "client_tax_id": "981-79-3397",
+    "invoice_number": "89042780",
+    "invoice_date": "10/16/2015",
+    "net_worth": "$ 1 908,56",
+    "vat": "$ 190,86",
+    "gross_worth": "$ 2 099,42",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.923,
+      "seller_tax_id": 0.474,
+      "client_name": 0.921,
+      "client_tax_id": 0.414,
+      "invoice_number": 0.969,
+      "invoice_date": 0.968,
+      "net_worth": 0.915,
+      "vat": 0.916,
+      "gross_worth": 0.92
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

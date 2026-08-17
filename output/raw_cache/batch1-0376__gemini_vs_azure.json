@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0376.jpg",
+  "reader_a": {
+    "seller_name": "Ross Group",
+    "seller_tax_id": "929-73-9404",
+    "client_name": "Leblanc and Sons",
+    "client_tax_id": "963-87-9848",
+    "invoice_number": "60518602",
+    "invoice_date": "08/30/2016",
+    "net_worth": "2 334,95",
+    "vat": "233,50",
+    "gross_worth": "2 568,45",
+    "_model": "gemini-3.1-flash-lite",
+    "_tokens": 1614
+  },
+  "reader_b": {
+    "seller_name": "Ross Group",
+    "seller_tax_id": "929-73-9404",
+    "client_name": "Leblanc and Sons",
+    "client_tax_id": "963-87-9848",
+    "invoice_number": "60518602",
+    "invoice_date": "08/30/2016",
+    "net_worth": "$ 2 334,95",
+    "vat": "$ 233,50",
+    "gross_worth": "$ 2 568,45",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.941,
+      "seller_tax_id": 0.415,
+      "client_name": 0.927,
+      "client_tax_id": 0.553,
+      "invoice_number": 0.97,
+      "invoice_date": 0.969,
+      "net_worth": 0.905,
+      "vat": 0.809,
+      "gross_worth": 0.926
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

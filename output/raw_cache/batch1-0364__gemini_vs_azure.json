@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0364.jpg",
+  "reader_a": {
+    "seller_name": "Thomas-Andrade",
+    "seller_tax_id": "972-90-5571",
+    "client_name": "Macdonald, Bentley and Nguyen",
+    "client_tax_id": "988-84-2670",
+    "invoice_number": "61113263",
+    "invoice_date": "02/04/2014",
+    "net_worth": "23 935,84",
+    "vat": "2 393,58",
+    "gross_worth": "26 329,42",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2733
+  },
+  "reader_b": {
+    "seller_name": "Thomas-Andrade",
+    "seller_tax_id": "972-90-5571",
+    "client_name": "Macdonald, Bentley and Nguyen",
+    "client_tax_id": "988-84-2670",
+    "invoice_number": "61113263",
+    "invoice_date": "02/04/2014",
+    "net_worth": "$ 23 935,84",
+    "vat": "$ 2 393,58",
+    "gross_worth": "$ 26 329,42",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.97,
+      "seller_tax_id": 0.371,
+      "client_name": 0.92,
+      "client_tax_id": 0.345,
+      "invoice_number": 0.971,
+      "invoice_date": 0.969,
+      "net_worth": 0.913,
+      "vat": 0.893,
+      "gross_worth": 0.925
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

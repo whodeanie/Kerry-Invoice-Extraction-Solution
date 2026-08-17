@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0373.jpg",
+  "reader_a": {
+    "seller_name": "Jones-Silva",
+    "seller_tax_id": "902-82-9449",
+    "client_name": "Stafford and Sons",
+    "client_tax_id": "910-94-4040",
+    "invoice_number": "99454334",
+    "invoice_date": "07/08/2017",
+    "net_worth": "96,00",
+    "vat": "9,60",
+    "gross_worth": "105,60",
+    "_model": "gemini-3.1-flash-lite",
+    "_tokens": 1608
+  },
+  "reader_b": {
+    "seller_name": "Jones-Silva",
+    "seller_tax_id": "902-82-9449",
+    "client_name": "Stafford and Sons",
+    "client_tax_id": "910-94-4040",
+    "invoice_number": "99454334",
+    "invoice_date": "07/08/2017",
+    "net_worth": "$ 96,00",
+    "vat": "$ 9,60",
+    "gross_worth": "$ 105,60",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.973,
+      "seller_tax_id": 0.424,
+      "client_name": 0.937,
+      "client_tax_id": 0.494,
+      "invoice_number": 0.974,
+      "invoice_date": 0.973,
+      "net_worth": 0.921,
+      "vat": 0.922,
+      "gross_worth": 0.938
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

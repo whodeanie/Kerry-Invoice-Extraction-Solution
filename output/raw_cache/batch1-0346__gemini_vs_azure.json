@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0346.jpg",
+  "reader_a": {
+    "seller_name": "Moran, Harris and Smith",
+    "seller_tax_id": "907-77-8712",
+    "client_name": "Hughes-Raymond",
+    "client_tax_id": "934-84-4841",
+    "invoice_number": "49380136",
+    "invoice_date": "02/21/2019",
+    "net_worth": "173,29",
+    "vat": "17,33",
+    "gross_worth": "190,62",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1758
+  },
+  "reader_b": {
+    "seller_name": "Moran, Harris and Smith",
+    "seller_tax_id": null,
+    "client_name": "Hughes-Raymond",
+    "client_tax_id": "934-84-4841",
+    "invoice_number": "49380136",
+    "invoice_date": "02/21/2019",
+    "net_worth": "$ 173,29",
+    "vat": "$ 17,33",
+    "gross_worth": "$ 190,62",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.921,
+      "client_name": 0.958,
+      "client_tax_id": 0.415,
+      "invoice_number": 0.968,
+      "invoice_date": 0.967,
+      "net_worth": 0.916,
+      "vat": 0.926,
+      "gross_worth": 0.929
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

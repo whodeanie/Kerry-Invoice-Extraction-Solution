@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0342.jpg",
+  "reader_a": {
+    "seller_name": "Love Inc",
+    "seller_tax_id": "960-75-3286",
+    "client_name": "Brown and Sons",
+    "client_tax_id": "992-88-6386",
+    "invoice_number": "79064100",
+    "invoice_date": "05/25/2018",
+    "net_worth": "84,44",
+    "vat": "8,44",
+    "gross_worth": "92,88",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 2091
+  },
+  "reader_b": {
+    "seller_name": "Love Inc",
+    "seller_tax_id": "960-75-3286",
+    "client_name": "Brown and Sons",
+    "client_tax_id": "992-88-6386",
+    "invoice_number": "79064100",
+    "invoice_date": "05/25/2018",
+    "net_worth": "$ 84,44",
+    "vat": "$ 8,44",
+    "gross_worth": "$ 92,88",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.943,
+      "seller_tax_id": 0.441,
+      "client_name": 0.932,
+      "client_tax_id": 0.535,
+      "invoice_number": 0.972,
+      "invoice_date": 0.971,
+      "net_worth": 0.932,
+      "vat": 0.928,
+      "gross_worth": 0.938
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

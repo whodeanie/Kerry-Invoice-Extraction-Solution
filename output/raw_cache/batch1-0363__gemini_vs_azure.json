@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0363.jpg",
+  "reader_a": {
+    "seller_name": "Nichols-Powell",
+    "seller_tax_id": "956-84-2083",
+    "client_name": "Ballard-Henry",
+    "client_tax_id": "923-84-5244",
+    "invoice_number": "16499996",
+    "invoice_date": "05/05/2019",
+    "net_worth": "19,50",
+    "vat": "1,95",
+    "gross_worth": "21,45",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2171
+  },
+  "reader_b": {
+    "seller_name": "Nichols-Powell",
+    "seller_tax_id": "956-84-2083",
+    "client_name": "Ballard-Henry\nUSNS Brown",
+    "client_tax_id": "923-84-5244",
+    "invoice_number": "16499996",
+    "invoice_date": "05/05/2019",
+    "net_worth": "$ 19,50",
+    "vat": "$ 1,95",
+    "gross_worth": "$ 21,45",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.977,
+      "seller_tax_id": 0.353,
+      "client_name": 0.908,
+      "client_tax_id": 0.416,
+      "invoice_number": 0.978,
+      "invoice_date": 0.976,
+      "net_worth": 0.793,
+      "vat": 0.915,
+      "gross_worth": 0.937
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

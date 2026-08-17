@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0366.jpg",
+  "reader_a": {
+    "seller_name": "Williams Ltd",
+    "seller_tax_id": "964-85-1307",
+    "client_name": "Gross PLC",
+    "client_tax_id": "963-76-2257",
+    "invoice_number": "74583312",
+    "invoice_date": "05/05/2015",
+    "net_worth": "634,36",
+    "vat": "63,44",
+    "gross_worth": "697,80",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2208
+  },
+  "reader_b": {
+    "seller_name": "Williams Ltd",
+    "seller_tax_id": null,
+    "client_name": "Gross PLC",
+    "client_tax_id": "963-76-2257",
+    "invoice_number": "74583312",
+    "invoice_date": "05/05/2015",
+    "net_worth": "$ 634,36",
+    "vat": "$ 63,44",
+    "gross_worth": "$ 697,80",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.938,
+      "client_name": 0.931,
+      "client_tax_id": 0.438,
+      "invoice_number": 0.96,
+      "invoice_date": 0.95,
+      "net_worth": 0.818,
+      "vat": 0.893,
+      "gross_worth": 0.927
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

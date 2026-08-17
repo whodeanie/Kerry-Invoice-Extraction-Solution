@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0344.jpg",
+  "reader_a": {
+    "seller_name": "Saunders-Lee",
+    "seller_tax_id": "991-83-4896",
+    "client_name": "Molina Inc",
+    "client_tax_id": "936-85-0485",
+    "invoice_number": "85473134",
+    "invoice_date": "04/24/2017",
+    "net_worth": "808,87",
+    "vat": "80,89",
+    "gross_worth": "889,76",
+    "_model": "gemini-3.7-flash",
+    "_tokens": 1752
+  },
+  "reader_b": {
+    "seller_name": "Saunders-Lee",
+    "seller_tax_id": "991-83-4896",
+    "client_name": "Molina Inc",
+    "client_tax_id": "936-85-0485",
+    "invoice_number": "85473134",
+    "invoice_date": "04/24/2017",
+    "net_worth": "$ 808,87",
+    "vat": "$ 80,89",
+    "gross_worth": "$ 889,76",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.959,
+      "seller_tax_id": 0.435,
+      "client_name": 0.938,
+      "client_tax_id": 0.563,
+      "invoice_number": 0.965,
+      "invoice_date": 0.96,
+      "net_worth": 0.925,
+      "vat": 0.924,
+      "gross_worth": 0.937
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

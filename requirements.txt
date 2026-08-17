@@ -1,0 +1,13 @@
+# Reader A - Google Gemini (free tier)
+google-genai>=1.0.0
+
+# Reader B - Azure AI Document Intelligence (free F0 tier)
+azure-ai-documentintelligence>=1.0.0
+azure-core>=1.30.0
+
+# Shared
+pydantic>=2.0
+python-dotenv>=1.0.0
+pillow>=10.0.0
+streamlit>=1.42.0
+pandas>=2.0.0

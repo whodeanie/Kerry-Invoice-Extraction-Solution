@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0361.jpg",
+  "reader_a": {
+    "seller_name": "Johnson-Young",
+    "seller_tax_id": "937-77-5283",
+    "client_name": "Garcia, Meyer and Cook",
+    "client_tax_id": "907-73-8031",
+    "invoice_number": "86575728",
+    "invoice_date": "11/24/2014",
+    "net_worth": "906,70",
+    "vat": "90,67",
+    "gross_worth": "997,37",
+    "_model": "gemini-3.6-flash",
+    "_tokens": 2093
+  },
+  "reader_b": {
+    "seller_name": "Johnson-Young",
+    "seller_tax_id": "937-77-5283",
+    "client_name": "Garcia, Meyer and Cook",
+    "client_tax_id": "907-73-8031",
+    "invoice_number": "86575728",
+    "invoice_date": "11/24/2014",
+    "net_worth": "$ 906,70",
+    "vat": "$ 90,67",
+    "gross_worth": "$ 997,37",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.95,
+      "seller_tax_id": 0.423,
+      "client_name": 0.917,
+      "client_tax_id": 0.553,
+      "invoice_number": 0.963,
+      "invoice_date": 0.957,
+      "net_worth": 0.811,
+      "vat": 0.813,
+      "gross_worth": 0.928
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

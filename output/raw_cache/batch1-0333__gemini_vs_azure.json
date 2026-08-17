@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0333.jpg",
+  "reader_a": {
+    "seller_name": "Solomon, Ford and Ellis",
+    "seller_tax_id": "954-73-2478",
+    "client_name": "Hamilton-Jackson",
+    "client_tax_id": "988-96-5706",
+    "invoice_number": "74819543",
+    "invoice_date": "10/07/2020",
+    "net_worth": "125,00",
+    "vat": "12,50",
+    "gross_worth": "137,50",
+    "_model": "gemini-3.6-flash",
+    "_tokens": 2026
+  },
+  "reader_b": {
+    "seller_name": "Solomon, Ford and Ellis",
+    "seller_tax_id": null,
+    "client_name": "Hamilton-Jackson",
+    "client_tax_id": "988-96-5706",
+    "invoice_number": "74819543",
+    "invoice_date": "10/07/2020",
+    "net_worth": "$ 125,00",
+    "vat": "$ 12,50",
+    "gross_worth": "$ 137,50",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.926,
+      "client_name": 0.97,
+      "client_tax_id": 0.463,
+      "invoice_number": 0.975,
+      "invoice_date": 0.973,
+      "net_worth": 0.819,
+      "vat": 0.917,
+      "gross_worth": 0.938
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

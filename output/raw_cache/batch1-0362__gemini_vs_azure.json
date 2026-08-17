@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0362.jpg",
+  "reader_a": {
+    "seller_name": "Smith-Torres",
+    "seller_tax_id": "927-81-6187",
+    "client_name": "Medina, Moss and Martin",
+    "client_tax_id": "915-85-0288",
+    "invoice_number": "76628307",
+    "invoice_date": "05/05/2019",
+    "net_worth": "3 084,91",
+    "vat": "308,49",
+    "gross_worth": "3 393,40",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2637
+  },
+  "reader_b": {
+    "seller_name": "Smith-Torres",
+    "seller_tax_id": "927-81-6187",
+    "client_name": "Medina, Moss and Martin",
+    "client_tax_id": "915-85-0288",
+    "invoice_number": "76628307",
+    "invoice_date": "05/05/2019",
+    "net_worth": "$ 3 084,91",
+    "vat": "$ 308,49",
+    "gross_worth": "$ 3 393,40",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.967,
+      "seller_tax_id": 0.587,
+      "client_name": 0.927,
+      "client_tax_id": 0.657,
+      "invoice_number": 0.968,
+      "invoice_date": 0.965,
+      "net_worth": 0.916,
+      "vat": 0.939,
+      "gross_worth": 0.93
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

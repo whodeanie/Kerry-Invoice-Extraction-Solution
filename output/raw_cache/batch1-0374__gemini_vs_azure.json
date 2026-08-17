@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0374.jpg",
+  "reader_a": {
+    "seller_name": "Kirby Group",
+    "seller_tax_id": "968-79-4900",
+    "client_name": "Martin-Allison",
+    "client_tax_id": "943-81-3637",
+    "invoice_number": "87873157",
+    "invoice_date": "05/09/2017",
+    "net_worth": "6,00",
+    "vat": "0,60",
+    "gross_worth": "6,60",
+    "_model": "gemini-3.1-flash-lite",
+    "_tokens": 1604
+  },
+  "reader_b": {
+    "seller_name": "Kirby Group",
+    "seller_tax_id": "968-79-4900",
+    "client_name": "Martin-Allison",
+    "client_tax_id": "943-81-3637",
+    "invoice_number": "87873157",
+    "invoice_date": "05/09/2017",
+    "net_worth": "$ 6,00",
+    "vat": "$ 0,60",
+    "gross_worth": "$ 6,60",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.945,
+      "seller_tax_id": 0.414,
+      "client_name": 0.967,
+      "client_tax_id": 0.553,
+      "invoice_number": 0.974,
+      "invoice_date": 0.973,
+      "net_worth": 0.78,
+      "vat": 0.915,
+      "gross_worth": 0.928
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

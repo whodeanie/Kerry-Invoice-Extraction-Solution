@@ -1,0 +1,42 @@
+{
+  "image": "batch1-0370.jpg",
+  "reader_a": {
+    "seller_name": "Thornton, Franklin and Hamilton",
+    "seller_tax_id": "998-77-7262",
+    "client_name": "Farmer, Pennington and Osborn",
+    "client_tax_id": "997-74-8995",
+    "invoice_number": "11637316",
+    "invoice_date": "03/21/2015",
+    "net_worth": "3 763,69",
+    "vat": "376,37",
+    "gross_worth": "4 140,06",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2229
+  },
+  "reader_b": {
+    "seller_name": "Thornton, Franklin and Hamilton",
+    "seller_tax_id": "998-77-7262",
+    "client_name": "Farmer, Pennington and Osborn",
+    "client_tax_id": "997-74-8995",
+    "invoice_number": "11637316",
+    "invoice_date": "03/21/2015",
+    "net_worth": "$ 3 763,69",
+    "vat": "$ 376,37",
+    "gross_worth": "$ 4 140,06",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.918,
+      "seller_tax_id": 0.559,
+      "client_name": 0.917,
+      "client_tax_id": 0.441,
+      "invoice_number": 0.956,
+      "invoice_date": 0.949,
+      "net_worth": 0.893,
+      "vat": 0.927,
+      "gross_worth": 0.917
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

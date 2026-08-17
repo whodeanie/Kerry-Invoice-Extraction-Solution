@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0371.jpg",
+  "reader_a": {
+    "seller_name": "Lewis and Sons",
+    "seller_tax_id": "988-97-7797",
+    "client_name": "Hancock LLC",
+    "client_tax_id": "982-72-2795",
+    "invoice_number": "39652805",
+    "invoice_date": "03/20/2020",
+    "net_worth": "299,99",
+    "vat": "30,00",
+    "gross_worth": "329,99",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2380
+  },
+  "reader_b": {
+    "seller_name": "Lewis and Sons",
+    "seller_tax_id": null,
+    "client_name": "Hancock LLC",
+    "client_tax_id": "982-72-2795",
+    "invoice_number": "39652805",
+    "invoice_date": "03/20/2020",
+    "net_worth": "$ 299,99",
+    "vat": "$ 30,00",
+    "gross_worth": "$ 329,99",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.938,
+      "client_name": 0.944,
+      "client_tax_id": 0.346,
+      "invoice_number": 0.974,
+      "invoice_date": 0.973,
+      "net_worth": 0.82,
+      "vat": 0.924,
+      "gross_worth": 0.94
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}

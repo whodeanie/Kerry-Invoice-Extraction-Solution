@@ -1,0 +1,41 @@
+{
+  "image": "batch1-0368.jpg",
+  "reader_a": {
+    "seller_name": "Horne-Fields",
+    "seller_tax_id": "964-80-0842",
+    "client_name": "French-Sullivan",
+    "client_tax_id": "905-94-4635",
+    "invoice_number": "87934175",
+    "invoice_date": "10/19/2016",
+    "net_worth": "97,98",
+    "vat": "9,80",
+    "gross_worth": "107,78",
+    "_model": "gemini-3.5-flash",
+    "_tokens": 2203
+  },
+  "reader_b": {
+    "seller_name": "Horne-Fields",
+    "seller_tax_id": null,
+    "client_name": "French-Sullivan",
+    "client_tax_id": "905-94-4635",
+    "invoice_number": "87934175",
+    "invoice_date": "10/19/2016",
+    "net_worth": "$ 97,98",
+    "vat": "$ 9,80",
+    "gross_worth": "$ 107,78",
+    "_model": "prebuilt-invoice",
+    "_confidence": {
+      "seller_name": 0.974,
+      "client_name": 0.972,
+      "client_tax_id": 0.44,
+      "invoice_number": 0.974,
+      "invoice_date": 0.973,
+      "net_worth": 0.917,
+      "vat": 0.921,
+      "gross_worth": 0.937
+    },
+    "_doc_confidence": 1.0
+  },
+  "reader_a_name": "gemini",
+  "reader_b_name": "azure"
+}
